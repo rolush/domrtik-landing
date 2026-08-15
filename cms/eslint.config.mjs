@@ -24,7 +24,7 @@ const eslintConfig = defineConfig([
       ],
     },
   },
-  globalIgnores(['.next/**', 'src/payload-types.ts', 'src/payload-generated-schema.ts']),
+  globalIgnores(['.next/**', 'public/**', 'src/payload-types.ts', 'src/payload-generated-schema.ts']),
 ])
 
 export default eslintConfig

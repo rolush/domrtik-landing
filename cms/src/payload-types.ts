@@ -87,8 +87,14 @@ export interface Config {
     defaultIDType: number;
   };
   fallbackLocale: null;
-  globals: {};
-  globalsSelect: {};
+  globals: {
+    'site-settings': SiteSetting;
+    'home-page': HomePage;
+  };
+  globalsSelect: {
+    'site-settings': SiteSettingsSelect<false> | SiteSettingsSelect<true>;
+    'home-page': HomePageSelect<false> | HomePageSelect<true>;
+  };
   locale: null;
   widgets: {
     collections: CollectionsWidget;
@@ -314,6 +320,118 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
   batch?: T;
   updatedAt?: T;
   createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "site-settings".
+ */
+export interface SiteSetting {
+  id: number;
+  email: string;
+  phonePrimary: string;
+  phoneSecondary: string;
+  maxUrl?: string | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "home-page".
+ */
+export interface HomePage {
+  id: number;
+  hero?: {
+    accentFirst?: string | null;
+    lightFirst?: string | null;
+    accentSecond?: string | null;
+    lightThird?: string | null;
+    subtitle?: string | null;
+    buttonLabel?: string | null;
+    sideButtonLabel?: string | null;
+    badges?:
+      | {
+          text: string;
+          id?: string | null;
+        }[]
+      | null;
+    image?: (number | null) | Media;
+  };
+  categories?:
+    | {
+        title: string;
+        image?: (number | null) | Media;
+        id?: string | null;
+      }[]
+    | null;
+  hits?:
+    | {
+        name: string;
+        price: number;
+        color?: string | null;
+        badge?: string | null;
+        image?: (number | null) | Media;
+        id?: string | null;
+      }[]
+    | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "site-settings_select".
+ */
+export interface SiteSettingsSelect<T extends boolean = true> {
+  email?: T;
+  phonePrimary?: T;
+  phoneSecondary?: T;
+  maxUrl?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "home-page_select".
+ */
+export interface HomePageSelect<T extends boolean = true> {
+  hero?:
+    | T
+    | {
+        accentFirst?: T;
+        lightFirst?: T;
+        accentSecond?: T;
+        lightThird?: T;
+        subtitle?: T;
+        buttonLabel?: T;
+        sideButtonLabel?: T;
+        badges?:
+          | T
+          | {
+              text?: T;
+              id?: T;
+            };
+        image?: T;
+      };
+  categories?:
+    | T
+    | {
+        title?: T;
+        image?: T;
+        id?: T;
+      };
+  hits?:
+    | T
+    | {
+        name?: T;
+        price?: T;
+        color?: T;
+        badge?: T;
+        image?: T;
+        id?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

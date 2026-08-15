@@ -17,4 +17,13 @@ describe('API', () => {
     })
     expect(users).toBeDefined()
   })
+
+  it('provides landing content defaults', async () => {
+    const settings = await payload.findGlobal({ slug: 'site-settings' })
+    const page = await payload.findGlobal({ slug: 'home-page' })
+
+    expect(settings.email).toBe('manager@domtrik.ru')
+    expect(page.categories).toHaveLength(6)
+    expect(page.hits).toHaveLength(9)
+  })
 })
