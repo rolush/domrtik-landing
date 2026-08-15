@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOMTRIK — домашний трикотаж оптом от производителя</title>
+<meta name="description" content="DOMTRIK — производство домашнего трикотажа. Оптовые поставки от 30 000 руб., 700+ моделей, размерный ряд 42–72.">
+<!-- демо на github.io: в выдачу пускать нельзя, иначе оно станет дублем боевого сайта.
+     Перед запуском на своём домене эту строку нужно убрать. -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#F9600B">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page">
+
+<header class="header">
+  <div class="header__inner">
+    <a class="logo" href="/" aria-label="DOMTRIK — на главную">
+      <img class="logo__img" src="assets/icons/logo-domtrik.svg" alt="DOMTRIK">
+    </a>
+
+    <button class="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="header-menu">
+      <span class="burger__line" aria-hidden="true"></span>
+      <span class="burger__line" aria-hidden="true"></span>
+      <span class="burger__line" aria-hidden="true"></span>
+    </button>
+
+    <nav class="nav" id="header-menu" aria-label="Основная навигация">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#about">О нас</a></li>
+        <li class="nav__item"><a class="nav__link" href="#assortment">Ассортимент</a></li>
+        <li class="nav__item"><a class="nav__link" href="#faq">Ответы на вопросы</a></li>
+      </ul>
+    </nav>
+
+    <a class="header__email" href="mailto:manager@domtrik.ru">
+      <img class="header__email-icon" src="assets/icons/icon-email.svg" alt="">
+      <span class="header__email-text">manager@domtrik.ru</span>
+    </a>
+
+    <div class="header__actions">
+      <div class="phones">
+        <a class="phones__item" href="tel:88005509535">
+          <img class="phones__icon" src="assets/icons/icon-phone.svg" alt="">
+          <span class="phones__text">8 800 550 95 35</span>
+        </a>
+        <a class="phones__item" href="tel:89203685050">
+          <img class="phones__icon" src="assets/icons/icon-phone.svg" alt="">
+          <span class="phones__text">8 920 368 50 50</span>
+        </a>
+      </div>
+      <button class="btn btn--outline" type="button" data-modal-open="modal-order">Связаться</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="hero__decor hero__decor--1"><img src="assets/icons/hero-ellipse-1.svg" alt=""></div>
+  <div class="hero__decor hero__decor--2"><img src="assets/icons/hero-ellipse-2.svg" alt=""></div>
+
+  <div class="hero__media">
+    <img class="hero__media-img" src="assets/img/hero-bg.webp" srcset="assets/img/hero-bg-390.webp 390w, assets/img/hero-bg-780.webp 780w, assets/img/hero-bg.webp 1920w" sizes="(max-width: 600px) 390px, 1920px" alt="Модели в домашнем трикотаже DOMTRIK">
+    <img class="hero__media-img hero__media-img--soft" src="assets/img/hero-bg.webp" srcset="assets/img/hero-bg-390.webp 390w, assets/img/hero-bg-780.webp 780w, assets/img/hero-bg.webp 1920w" sizes="(max-width: 600px) 390px, 1920px" alt="">
+  </div>
+
+  <h1 class="hero__title">
+    <span class="hero__title-line">
+      <span class="hero__title-accent">одежда,</span> <span class="hero__title-light">которая</span>
+    </span>
+    <span class="hero__title-line hero__title-line--underlined">
+      <span class="hero__title-accent">точно понравится</span>
+    </span>
+    <span class="hero__title-line hero__title-line--last">
+      <span class="hero__title-light">вашим покупателям!</span>
+    </span>
+  </h1>
+
+  <div class="hero__offer">
+    <p class="hero__subtitle">Домашний трикотаж оптом от производителя</p>
+    <button class="btn btn--primary hero__cta" type="button" data-modal-open="modal-order">Стать партнером</button>
+  </div>
+
+  <ul class="hero__badges">
+    <li class="badge">
+      <span class="badge__icon"><img src="assets/icons/badge-honest-sign.svg" alt=""></span>
+      <span class="badge__text">Честный Знак</span>
+    </li>
+    <li class="badge">
+      <span class="badge__icon"><img src="assets/icons/badge-docs.svg" alt=""></span>
+      <span class="badge__text">Полный пакет документов</span>
+    </li>
+  </ul>
+
+  <div class="hero__side">
+    <button class="side-btn" type="button" data-modal-open="modal-order">
+      <img class="side-btn__icon" src="assets/icons/side-btn-arrow.svg" alt="">
+      <span class="side-btn__text">Получить оптовый прайс</span>
+    </button>
+  </div>
+
+  <!-- на телефоне вместо боковой кнопки — круглая кнопка MAX, как в макете -->
+  <a class="call-btn" href="https://web.max.ru/" target="_blank" rel="noopener" aria-label="Продолжить диалог в MAX">
+    <img class="call-btn__icon" src="assets/icons/max-button.svg" alt="">
+  </a>
+</section>
+
+<section class="benefits">
+  <h2 class="section-title">С нами работать <span class="section-title__accent">выгодно</span></h2>
+  <ul class="benefits__list">
+    <li class="benefit">
+      <div class="benefit__head">
+        <span class="benefit__chip">Гибкие условия заказа</span>
+        <img class="benefit__arrow" src="assets/icons/arrow-up-right.svg" alt="">
+      </div>
+      <div class="benefit__stats">
+        <p class="benefit__value"><span class="benefit__value-unit">От</span><span class="benefit__value-num"> 30 000 </span><span class="benefit__value-unit">руб.</span></p>
+        <p class="benefit__label">Выкуп без размерных рядов</p>
+      </div>
+    </li>
+    <li class="benefit">
+      <div class="benefit__head">
+        <span class="benefit__chip">Широкий ассортимент</span>
+        <img class="benefit__arrow" src="assets/icons/arrow-up-right.svg" alt="">
+      </div>
+      <div class="benefit__stats">
+        <p class="benefit__value"><span class="benefit__value-num">700+</span></p>
+        <p class="benefit__label">Моделей в ассортименте</p>
+      </div>
+    </li>
+    <li class="benefit">
+      <div class="benefit__head">
+        <span class="benefit__chip">Размерный ряд</span>
+        <img class="benefit__arrow" src="assets/icons/arrow-up-right.svg" alt="">
+      </div>
+      <div class="benefit__stats">
+        <p class="benefit__value"><span class="benefit__value-num">42–72</span></p>
+        <p class="benefit__label">Широкая размерная сетка</p>
+      </div>
+    </li>
+    <li class="benefit">
+      <div class="benefit__head">
+        <span class="benefit__chip">Наценка</span>
+        <img class="benefit__arrow" src="assets/icons/arrow-up-right.svg" alt="">
+      </div>
+      <div class="benefit__stats">
+        <p class="benefit__value"><span class="benefit__value-num">80-120</span><span class="benefit__value-pct">%</span></p>
+        <p class="benefit__label">Наценка партнёров</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section class="reasons">
+  <h2 class="section-title">5 причин <span class="section-title__accent">стать партнером</span></h2>
+  <ul class="reasons__list">
+    <li class="reason">
+      <span class="reason__num">01</span>
+      <div class="reason__body">
+        <h3 class="reason__name">Ходовой ассортимент</h3>
+        <p class="reason__text">Популярные модели с высоким спросом</p>
+      </div>
+    </li>
+    <li class="reason">
+      <span class="reason__num">02</span>
+      <div class="reason__body">
+        <h3 class="reason__name">Отгрузка в день оплаты</h3>
+        <p class="reason__text">Быстро отправляем заказы по всей России</p>
+      </div>
+    </li>
+    <li class="reason">
+      <span class="reason__num">03</span>
+      <div class="reason__body">
+        <h3 class="reason__name">Помощь в подборе ассортимента</h3>
+        <p class="reason__text">Подскажем модели под ваш магазин и покупателей</p>
+      </div>
+    </li>
+    <li class="reason">
+      <span class="reason__num">04</span>
+      <div class="reason__body">
+        <h3 class="reason__name">Трендовые новинки каждый месяц</h3>
+        <p class="reason__text">Регулярно обновляем коллекции и ассортимент</p>
+      </div>
+    </li>
+    <li class="reason">
+      <span class="reason__num">05</span>
+      <div class="reason__body">
+        <h3 class="reason__name">Закреплённый менеджер</h3>
+        <p class="reason__text">Персональный менеджер всегда на связи</p>
+      </div>
+    </li>
+    <li class="reason reason--cta">
+      <p class="reason__offer">Получите оптовые условия и каталог моделей</p>
+      <button class="btn reason__btn" type="button" data-modal-open="modal-order">Стать партнером</button>
+    </li>
+  </ul>
+</section>
+
+<section class="products" id="assortment">
+  <h2 class="section-title">Мы <span class="section-title__accent">производим</span></h2>
+  <ul class="products__list">
+    <li class="product">
+      <div class="product__media">
+        <img class="product__img" src="assets/img/category-01-platya.webp" srcset="assets/img/category-01-platya-390.webp 390w, assets/img/category-01-platya-780.webp 780w, assets/img/category-01-platya.webp 1012w" sizes="(max-width: 600px) 390px, 1012px" alt="Женское платье DOMTRIK">
+      </div>
+      <p class="product__label">Платья</p>
+    </li>
+    <li class="product">
+      <div class="product__media">
+        <img class="product__img" src="assets/img/category-02-sarafany.webp" srcset="assets/img/category-02-sarafany-390.webp 390w, assets/img/category-02-sarafany-780.webp 780w, assets/img/category-02-sarafany.webp 1012w" sizes="(max-width: 600px) 390px, 1012px" alt="Женский сарафан DOMTRIK">
+      </div>
+      <p class="product__label">Сарафаны</p>
+    </li>
+    <li class="product">
+      <div class="product__media">
+        <img class="product__img" src="assets/img/category-03-tuniki-halaty.webp" srcset="assets/img/category-03-tuniki-halaty-390.webp 390w, assets/img/category-03-tuniki-halaty-780.webp 780w, assets/img/category-03-tuniki-halaty.webp 1012w" sizes="(max-width: 600px) 390px, 1012px" alt="Туника из коллекции DOMTRIK">
+      </div>
+      <p class="product__label">Туники и халаты</p>
+    </li>
+    <li class="product">
+      <div class="product__media">
+        <img class="product__img" src="assets/img/category-04-domashnie-kostyumy.webp" srcset="assets/img/category-04-domashnie-kostyumy-390.webp 390w, assets/img/category-04-domashnie-kostyumy-780.webp 780w, assets/img/category-04-domashnie-kostyumy.webp 1012w" sizes="(max-width: 600px) 390px, 1012px" alt="Домашний костюм DOMTRIK">
+      </div>
+      <p class="product__label">Домашние костюмы</p>
+    </li>
+    <li class="product">
+      <div class="product__media">
+        <img class="product__img" src="assets/img/category-05-pizhamy-sorochki.webp" srcset="assets/img/category-05-pizhamy-sorochki-390.webp 390w, assets/img/category-05-pizhamy-sorochki-780.webp 780w, assets/img/category-05-pizhamy-sorochki.webp 1012w" sizes="(max-width: 600px) 390px, 1012px" alt="Сорочка из коллекции DOMTRIK">
+      </div>
+      <p class="product__label">Пижамы и сорочки</p>
+    </li>
+    <li class="product">
+      <div class="product__media">
+        <img class="product__img" src="assets/img/category-06-bryuki-shorty.webp" srcset="assets/img/category-06-bryuki-shorty-390.webp 390w, assets/img/category-06-bryuki-shorty-780.webp 780w, assets/img/category-06-bryuki-shorty.webp 1012w" sizes="(max-width: 600px) 390px, 1012px" alt="Брюки из коллекции DOMTRIK">
+      </div>
+      <p class="product__label">Брюки и шорты</p>
+    </li>
+  </ul>
+</section>
+
+<section class="hits">
+  <h2 class="section-title">Хиты <span class="section-title__accent">продаж</span></h2>
+  <ul class="hits__list">
+    <li class="hit">
+      <div class="hit__media">
+        <img class="hit__img" src="assets/img/product-01-anyuta.webp" srcset="assets/img/product-01-anyuta-390.webp 390w, assets/img/product-01-anyuta-780.webp 780w, assets/img/product-01-anyuta.webp 1400w" sizes="(max-width: 600px) 390px, 1400px" alt="Сарафан женский кулирка АНЮТА">
+        <span class="hit__badge">Хит продаж</span>
+        <span class="hit__overlay" aria-hidden="true"></span>
+        <button class="hit__action" type="button" data-modal-open="modal-order">Подобрать ассортимент</button>
+      </div>
+      <div class="hit__info">
+        <div class="hit__row">
+          <h3 class="hit__name">Сарафан женский кулирка "АНЮТА"</h3>
+          <p class="hit__price"><span class="hit__price-value">720</span><span class="hit__price-currency">&#8381;</span></p>
+        </div>
+        <p class="hit__color">Олива</p>
+      </div>
+    </li>
+    <li class="hit">
+      <div class="hit__media">
+        <img class="hit__img" src="assets/img/product-02-oliviya.webp" srcset="assets/img/product-02-oliviya-390.webp 390w, assets/img/product-02-oliviya-780.webp 780w, assets/img/product-02-oliviya.webp 1400w" sizes="(max-width: 600px) 390px, 1400px" alt="Сарафан женский кулирка ОЛИВИЯ">
+        <span class="hit__badge">Хит продаж</span>
+        <span class="hit__overlay" aria-hidden="true"></span>
+        <button class="hit__action" type="button" data-modal-open="modal-order">Подобрать ассортимент</button>
+      </div>
+      <div class="hit__info">
+        <div class="hit__row">
+          <h3 class="hit__name">Сарафан женский кулирка "ОЛИВИЯ"</h3>
+          <p class="hit__price"><span class="hit__price-value">650</span><span class="hit__price-currency">&#8381;</span></p>
+        </div>
+        <p class="hit__color">Голубой</p>
+      </div>
+    </li>
+    <li class="hit">
+      <div class="hit__media">
+        <img class="hit__img" src="assets/img/product-03-maya.webp" srcset="assets/img/product-03-maya-390.webp 390w, assets/img/product-03-maya-780.webp 780w, assets/img/product-03-maya.webp 1400w" sizes="(max-width: 600px) 390px, 1400px" alt="Халат женский кулирка МАЙЯ">
+        <span class="hit__badge">Хит продаж</span>
+        <span class="hit__overlay" aria-hidden="true"></span>
+        <button class="hit__action" type="button" data-modal-open="modal-order">Подобрать ассортимент</button>
+      </div>
+      <div class="hit__info">
+        <div class="hit__row">
+          <h3 class="hit__name">Халат женский кулирка "МАЙЯ"</h3>
+          <p class="hit__price"><span class="hit__price-value">830</span><span class="hit__price-currency">&#8381;</span></p>
+        </div>
+        <p class="hit__color">Оранж</p>
+      </div>
+    </li>
+    <li class="hit">
+      <div class="hit__media">
+        <img class="hit__img" src="assets/img/product-04-savanna.webp" srcset="assets/img/product-04-savanna-390.webp 390w, assets/img/product-04-savanna-780.webp 780w, assets/img/product-04-savanna.webp 1400w" sizes="(max-width: 600px) 390px, 1400px" alt="Костюм женский кулирка с брюками САВАННА">
+        <span class="hit__badge">Хит продаж</span>
+        <span class="hit__overlay" aria-hidden="true"></span>
+        <button class="hit__action" type="button" data-modal-open="modal-order">Подобрать ассортимент</button>
+      </div>
+      <div class="hit__info">
+        <div class="hit__row">
+          <h3 class="hit__name">Костюм женский кулирка с брюками "САВАННА"</h3>
+          <p class="hit__price"><span class="hit__price-value">950</span><span class="hit__price-currency">&#8381;</span></p>
+        </div>
+        <p class="hit__color">Оранж</p>
+      </div>
+    </li>
+    <li class="hit">
+      <div class="hit__media">
+        <img class="hit__img" src="assets/img/product-05-zarina.webp" srcset="assets/img/product-05-zarina-390.webp 390w, assets/img/product-05-zarina-780.webp 780w, assets/img/product-05-zarina.webp 1400w" sizes="(max-width: 600px) 390px, 1400px" alt="Костюм женский футер с лайкрой ЗАРИНА">
+        <span class="hit__badge">Хит продаж</span>
+        <span class="hit__overlay" aria-hidden="true"></span>
+        <button class="hit__action" type="button" data-modal-open="modal-order">Подобрать ассортимент</button>
+      </div>
+      <div class="hit__info">
+        <div class="hit__row">
+          <h3 class="hit__name">Костюм женский футер с лайкрой "ЗАРИНА"</h3>
+          <p class="hit__price"><span class="hit__price-value">1740</span><span class="hit__price-currency">&#8381;</span></p>
+        </div>
+        <p class="hit__color">Индиго</p>
+      </div>
+    </li>
+    <li class="hit">
+      <div class="hit__media">
+        <img class="hit__img" src="assets/img/product-06-agniya.webp" srcset="assets/img/product-06-agniya-390.webp 390w, assets/img/product-06-agniya-780.webp 780w, assets/img/product-06-agniya.webp 1400w" sizes="(max-width: 600px) 390px, 1400px" alt="Платье женское кулирка АГНИЯ">
+        <span class="hit__badge">Хит продаж</span>
+        <span class="hit__overlay" aria-hidden="true"></span>
+        <button class="hit__action" type="button" data-modal-open="modal-order">Подобрать ассортимент</button>
+      </div>
+      <div class="hit__info">
+        <div class="hit__row">
+          <h3 class="hit__name">Платье женское кулирка "АГНИЯ"</h3>
+          <p class="hit__price"><span class="hit__price-value">780</span><span class="hit__price-currency">&#8381;</span></p>
+        </div>
+        <p class="hit__color">Лайм</p>
+      </div>
+    </li>
+    <li class="hit">
+      <div class="hit__media">
+        <img class="hit__img" src="assets/img/product-07-vlada.webp" srcset="assets/img/product-07-vlada-390.webp 390w, assets/img/product-07-vlada-780.webp 780w, assets/img/product-07-vlada.webp 1400w" sizes="(max-width: 600px) 390px, 1400px" alt="Платье женское кулирка ВЛАДА">
+        <span class="hit__badge">Хит продаж</span>
+        <span class="hit__overlay" aria-hidden="true"></span>
+        <button class="hit__action" type="button" data-modal-open="modal-order">Подобрать ассортимент</button>
+      </div>
+      <div class="hit__info">
+        <div class="hit__row">
+          <h3 class="hit__name">Платье женское кулирка "ВЛАДА"</h3>
+          <p class="hit__price"><span class="hit__price-value">840</span><span class="hit__price-currency">&#8381;</span></p>
+        </div>
+        <p class="hit__color">Беж полоса</p>
+      </div>
+    </li>
+    <li class="hit">
+      <div class="hit__media">
+        <img class="hit__img" src="assets/img/product-08-perfekt.webp" srcset="assets/img/product-08-perfekt-390.webp 390w, assets/img/product-08-perfekt-780.webp 780w, assets/img/product-08-perfekt.webp 1400w" sizes="(max-width: 600px) 390px, 1400px" alt="Платье женское кулирка с капюшоном ПЕРФЕКТ">
+        <span class="hit__badge">Хит продаж</span>
+        <span class="hit__overlay" aria-hidden="true"></span>
+        <button class="hit__action" type="button" data-modal-open="modal-order">Подобрать ассортимент</button>
+      </div>
+      <div class="hit__info">
+        <div class="hit__row">
+          <h3 class="hit__name">Платье женское кулирка с капюшоном "ПЕРФЕКТ"</h3>
+          <p class="hit__price"><span class="hit__price-value">780</span><span class="hit__price-currency">&#8381;</span></p>
+        </div>
+        <p class="hit__color">Шоколад</p>
+      </div>
+    </li>
+    <li class="hit">
+      <div class="hit__media">
+        <img class="hit__img" src="assets/img/product-09-tbd.webp" srcset="assets/img/product-09-tbd-390.webp 390w, assets/img/product-09-tbd-780.webp 780w, assets/img/product-09-tbd.webp 1400w" sizes="(max-width: 600px) 390px, 1400px" alt="Сарафан женский кулирка ОЛИВИЯ">
+        <span class="hit__badge">Хит продаж</span>
+        <span class="hit__overlay" aria-hidden="true"></span>
+        <button class="hit__action" type="button" data-modal-open="modal-order">Подобрать ассортимент</button>
+      </div>
+      <div class="hit__info">
+        <div class="hit__row">
+          <h3 class="hit__name">Сарафан женский кулирка "ОЛИВИЯ"</h3>
+          <p class="hit__price"><span class="hit__price-value">650</span><span class="hit__price-currency">&#8381;</span></p>
+        </div>
+        <p class="hit__color">Бирюза</p>
+      </div>
+    </li>
+  </ul>
+
+  <!-- в мобильном макете под каруселью стоит кнопка, на десктопе её нет -->
+  <button class="btn btn--primary hits__more" type="button" data-modal-open="modal-order">Подобрать ассортимент</button>
+</section>
+
+<section class="cta cta--assortment">
+  <div class="cta__decor"><img src="assets/icons/hero-ellipse-2.svg" alt=""></div>
+  <div class="cta__blend"><img src="assets/img/cta-bg-1.webp" srcset="assets/img/cta-bg-1-390.webp 390w, assets/img/cta-bg-1-780.webp 780w, assets/img/cta-bg-1.webp 1920w" sizes="(max-width: 600px) 390px, 1920px" alt=""></div>
+  <img class="cta__photo" src="assets/img/cta-bg-2.webp" srcset="assets/img/cta-bg-2-390.webp 390w, assets/img/cta-bg-2-780.webp 780w, assets/img/cta-bg-2.webp 1920w" sizes="(max-width: 600px) 390px, 1920px" alt="Модели в летних комплектах DOMTRIK">
+
+  <div class="cta__content">
+    <div class="cta__head">
+      <h2 class="cta__title">
+        <span class="cta__title-line">Подберем <span class="cta__title-accent">востребованный</span></span>
+        <span class="cta__title-line">ассортимент в вашем регионе</span>
+      </h2>
+      <p class="cta__note">
+        <span class="cta__note-icon"><img src="assets/icons/badge-honest-sign.svg" alt=""></span>
+        <span class="cta__note-text">У нас есть статистика продаж по всем регионам</span>
+      </p>
+    </div>
+
+    <form class="form" action="#" method="post" novalidate data-form-source="Подберем ассортимент">
+      <input class="form__trap" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="form__fields">
+        <span class="form__field"><input class="form__input" type="text" name="name" placeholder="Ваше имя" aria-label="Ваше имя" required></span>
+        <div class="form__row">
+          <span class="form__field"><input class="form__input" type="email" name="email" placeholder="E-mail" aria-label="E-mail" required></span>
+          <span class="form__field"><input class="form__input" type="tel" name="phone" placeholder="Телефон" aria-label="Телефон" required></span>
+        </div>
+      </div>
+      <div class="form__submit">
+        <button class="btn btn--primary form__btn" type="submit">Подобрать ассортимент</button>
+        <label class="form__agree">
+          <input class="form__checkbox" type="checkbox" name="agree" required>
+          <span class="form__agree-text">Я подтверждаю свое согласие с <a class="form__link" href="privacy.html" target="_blank" rel="noopener">Политикой конфиденциальности</a> и даю <a class="form__link" href="consent.html" target="_blank" rel="noopener">разрешение на обработку моих персональных данных</a></span>
+        </label>
+      </div>
+      <p class="form__captcha-note" hidden>Форма защищена от спама сервисом Yandex SmartCaptcha.</p>
+    </form>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about__media">
+    <div class="about__media-bg"></div>
+    <div class="about__video">
+      <video class="about__video-img" poster="assets/video/about-poster.jpg"
+             preload="metadata" playsinline muted loop
+             aria-label="Видео о производстве ДомТрик">
+        <source src="assets/video/about.webm" type="video/webm">
+        <source src="assets/video/about.mp4" type="video/mp4">
+      </video>
+      <button class="about__play" type="button" aria-label="Смотреть видео о компании">
+        <span class="about__play-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="about__content">
+    <h2 class="about__title">О компании</h2>
+    <div class="about__text">
+      <p>Швейное предприятие «ДомТрик» основано в <b>2006</b> году в Иваново — текстильной столице России. Мы специализируемся на производстве качественной одежды для дома, офиса, сна и отдыха. В каталоге представлено более <b>700</b> моделей и ассортимент регулярно пополняется трендовыми новинками.</p>
+      <p>Располагаем собственным производством, оснащенным передовым техническим оборудованием. Наша команда дизайнеров, технологов и конструкторов контролирует каждый этап создания одежды. Вся продукция сертифицирована. Мы гарантируем высокое качество швов и посадки в соответствии с российскими размерной сеткой.</p>
+      <p>Компания регулярно обновляет коллекции и сотрудничает с оптовыми покупателями по всей стране.</p>
+    </div>
+    <div class="about__stat about__stat--experience">
+      <p class="about__stat-value">20+</p>
+      <p class="about__stat-chip">Лет опыта</p>
+    </div>
+    <div class="about__stat about__stat--models">
+      <p class="about__stat-value">700+</p>
+      <p class="about__stat-chip">Моделей в ассортименте</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta cta--delivery">
+  <div class="cta__decor cta__decor--delivery-1"><img src="assets/icons/ellipse-1600.svg" alt=""></div>
+  <div class="cta__decor cta__decor--delivery-2"><img src="assets/icons/ellipse-1600.svg" alt=""></div>
+
+  <div class="cta__inner">
+    <div class="cta__head">
+      <h2 class="cta__headline">Первая <span class="cta__headline-strong">доставка в подарок</span> при заказе от <span class="cta__headline-big">70 000</span> &#8381;</h2>
+      <p class="cta__terms">
+        <span class="cta__terms-chip">В любой регион в течение 3-х дней с момента заказа</span>
+        <img class="cta__terms-icon" src="assets/icons/arrow-link-white.svg" alt="">
+      </p>
+    </div>
+
+    <form class="order-form" action="#" method="post" novalidate data-form-source="Первая доставка в подарок">
+        <input class="form__trap" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="order-form__bar">
+        <div class="order-form__fields">
+          <span class="order-form__field"><input class="order-form__input" type="text" name="name" placeholder="Ваше имя" aria-label="Ваше имя" required></span>
+          <span class="order-form__field"><input class="order-form__input" type="email" name="email" placeholder="E-mail" aria-label="E-mail" required></span>
+          <span class="order-form__field"><input class="order-form__input" type="tel" name="phone" placeholder="Телефон" aria-label="Телефон" required></span>
+        </div>
+        <button class="order-form__btn" type="submit">Рассчитать заказ</button>
+      </div>
+      <label class="order-form__agree">
+        <input class="order-form__checkbox" type="checkbox" name="agree" required>
+        <span class="order-form__agree-text">Я подтверждаю свое согласие с <a class="form__link" href="privacy.html" target="_blank" rel="noopener">Политикой конфиденциальности</a> и даю <a class="form__link" href="consent.html" target="_blank" rel="noopener">разрешение на обработку моих персональных данных</a></span>
+      </label>
+      <p class="form__captcha-note" hidden>Форма защищена от спама сервисом Yandex SmartCaptcha.</p>
+    </form>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <h2 class="section-title">Вопросы <span class="section-title__accent">и ответы</span></h2>
+  <ul class="faq__list">
+    <li class="faq__item">
+      <button class="faq__card" type="button" data-modal-open="modal-how-to-order">
+        <span class="faq__question">Как сделать заказ и дозаказ?</span>
+        <span class="faq__toggle" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li class="faq__item">
+      <button class="faq__card" type="button" data-modal-open="modal-delivery">
+        <span class="faq__question">Доставка и правила работы?</span>
+        <span class="faq__toggle" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li class="faq__item">
+      <button class="faq__card" type="button" data-modal-open="modal-sizes">
+        <span class="faq__question">Таблица размеров</span>
+        <span class="faq__toggle" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li class="faq__item">
+      <button class="faq__card" type="button" data-modal-open="modal-certificates">
+        <span class="faq__question">Сертификаты</span>
+        <span class="faq__toggle" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li class="faq__item">
+      <button class="faq__card" type="button" data-modal-open="modal-min-order">
+        <span class="faq__question">Какой минимальный заказ?</span>
+        <span class="faq__toggle" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li class="faq__item">
+      <button class="faq__card" type="button" data-modal-open="modal-schedule">
+        <span class="faq__question">График работы</span>
+        <span class="faq__toggle" aria-hidden="true"></span>
+      </button>
+    </li>
+  </ul>
+</section>
+
+<section class="geography">
+  <div class="geography__inner">
+    <div class="geography__map">
+      <img class="geography__map-img" src="assets/img/geography-map.webp" srcset="assets/img/geography-map-390.webp 390w, assets/img/geography-map-780.webp 780w, assets/img/geography-map.webp 1920w" sizes="(max-width: 600px) 390px, 1920px" alt="Карта России с городами поставок DOMTRIK">
+    </div>
+    <h2 class="geography__title"><span class="geography__title-accent">География</span> поставок</h2>
+    <p class="geography__note">
+      <span class="geography__note-icon"><img src="assets/icons/badge-honest-sign.svg" alt=""></span>
+      <span class="geography__note-text">Работаем с розничными магазинами и оптовыми покупателями <b>по всей России</b></span>
+    </p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__decor footer__decor--1"><img src="assets/icons/hero-ellipse-1.svg" alt=""></div>
+  <div class="footer__decor footer__decor--2"><span class="footer__decor-inner"><img src="assets/icons/hero-ellipse-2.svg" alt=""></span></div>
+
+  <div class="footer__content">
+    <h2 class="footer__title">Начните <span class="footer__title-accent">сотрудничество</span></h2>
+
+    <div class="footer__row">
+      <div class="footer__col footer__col--contacts">
+        <div class="contact">
+          <p class="contact__label">Адрес</p>
+          <p class="contact__value">г. Иваново, ул.Шестернина д.9</p>
+        </div>
+        <div class="contact contact--phones">
+          <p class="contact__label">Телефон</p>
+          <a class="contact__value" href="tel:88005509535">8 800 550 95 35</a>
+          <a class="contact__value" href="tel:89203685050">8 920 368 50 50</a>
+        </div>
+        <div class="contact">
+          <p class="contact__label">E-mail</p>
+          <a class="contact__value" href="mailto:manager@domtrik.ru">manager@domtrik.ru</a>
+        </div>
+      </div>
+
+      <div class="footer__col footer__col--info">
+        <div class="schedule">
+          <p class="contact__label">Режим работы</p>
+          <div class="schedule__list">
+            <p class="schedule__item"><span class="schedule__day">пн - чт:</span> <span class="schedule__time">08:00 - 17:00</span></p>
+            <p class="schedule__item"><span class="schedule__day">пт:</span> <span class="schedule__time">08:00 - 16:30</span></p>
+            <p class="schedule__item"><span class="schedule__day">сб - вс:</span> <span class="schedule__time">выходной</span></p>
+          </div>
+        </div>
+        <div class="socials">
+          <p class="contact__label">Мы в интернете</p>
+          <ul class="socials__list">
+            <li><a class="socials__link socials__link--vk" href="https://vk.ru/domtrik1" target="_blank" rel="noopener" aria-label="ВКонтакте"><img src="assets/icons/icon-other-02.svg" alt=""></a></li>
+            <li><a class="socials__link socials__link--ok" href="https://ok.ru/domtrikdo" target="_blank" rel="noopener" aria-label="Одноклассники"><img src="assets/icons/icon-other-03.svg" alt=""></a></li>
+            <li><a class="socials__link socials__link--rt" href="https://rutube.ru/channel/42081373/" target="_blank" rel="noopener" aria-label="Rutube"><img src="assets/icons/icon-other-04.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <form class="form footer__form" action="#" method="post" novalidate data-form-source="Начните сотрудничество">
+        <input class="form__trap" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form__fields">
+          <span class="form__field"><input class="form__input" type="text" name="name" placeholder="Ваше имя" aria-label="Ваше имя" required></span>
+          <div class="form__row">
+            <span class="form__field"><input class="form__input" type="email" name="email" placeholder="E-mail" aria-label="E-mail" required></span>
+            <span class="form__field"><input class="form__input" type="tel" name="phone" placeholder="Телефон" aria-label="Телефон" required></span>
+          </div>
+        </div>
+        <div class="form__submit">
+          <button class="btn btn--primary form__btn" type="submit">Подобрать ассортимент</button>
+          <label class="form__agree">
+            <input class="form__checkbox" type="checkbox" name="agree" required>
+            <span class="form__agree-text">Я подтверждаю свое согласие с <a class="form__link" href="privacy.html" target="_blank" rel="noopener">Политикой конфиденциальности</a> и даю <a class="form__link" href="consent.html" target="_blank" rel="noopener">разрешение на обработку моих персональных данных</a></span>
+          </label>
+        </div>
+        <p class="form__captcha-note" hidden>Форма защищена от спама сервисом Yandex SmartCaptcha.</p>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer__bar">
+    <div class="footer__bar-inner">
+      <a class="logo logo--sm" href="/" aria-label="DOMTRIK — на главную">
+        <img class="logo__img" src="assets/icons/logo-domtrik.svg" alt="DOMTRIK">
+      </a>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <ul class="footer__nav-list">
+          <li><a class="footer__nav-link" href="#about">О нас</a></li>
+          <li><a class="footer__nav-link" href="#assortment">Ассортимент</a></li>
+          <li><a class="footer__nav-link" href="#faq">Ответы на вопросы</a></li>
+          <li><a class="footer__nav-link footer__nav-link--policy" href="privacy.html" target="_blank" rel="noopener">Политика конфиденциальности</a></li>
+        </ul>
+      </nav>
+      <a class="footer__author" href="https://cadesign.ru" target="_blank" rel="noopener">Сделано в <span class="footer__author-logo" role="img" aria-label="CADesign"></span></a>
+    </div>
+  </div>
+</footer>
+
+<div class="markup-card">
+  <div class="markup-card__inner">
+    <p class="markup-card__value"><span class="markup-card__value-num">80-120</span><span class="markup-card__value-pct">%</span></p>
+    <p class="markup-card__row">
+      <img class="markup-card__icon" src="assets/icons/quota.svg" alt="">
+      <span class="markup-card__chip">Рекомендуемая наценка</span>
+    </p>
+  </div>
+</div>
+
+</div>
+
+<div class="max-widget">
+  <a class="max-widget__pill" href="https://web.max.ru/" target="_blank" rel="noopener">
+    <span class="max-widget__text">Продолжить диалог в MAX</span>
+    <span class="max-widget__avatar">
+      <img class="max-widget__avatar-img max-widget__avatar-img--back" src="assets/img/manager-avatar-1.webp" srcset="assets/img/manager-avatar-1-390.webp 390w, assets/img/manager-avatar-1.webp 390w" sizes="(max-width: 600px) 390px, 390px" alt="">
+      <img class="max-widget__avatar-img max-widget__avatar-img--front" src="assets/img/manager-avatar-2.webp" srcset="assets/img/manager-avatar-2-390.webp 390w, assets/img/manager-avatar-2.webp 402w" sizes="(max-width: 600px) 390px, 402px" alt="Менеджер DOMTRIK">
+    </span>
+  </a>
+</div>
+
+<div class="modal" id="modal-order" hidden>
+  <div class="modal__backdrop" data-modal-close></div>
+  <div class="modal__card modal__card--narrow" role="dialog" aria-modal="true" aria-labelledby="modal-order-title">
+    <button class="modal__close" type="button" aria-label="Закрыть" data-modal-close></button>
+    <h2 class="modal__title modal__title--center" id="modal-order-title">Оставить заявку</h2>
+    <form class="modal-form" action="send.php" method="post" novalidate data-form-source="Оставить заявку">
+      <input class="form__trap" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input class="modal-form__input" type="text" name="name" placeholder="Ваше имя" aria-label="Ваше имя" required>
+      <input class="modal-form__input" type="email" name="email" placeholder="E-mail" aria-label="E-mail" required>
+      <input class="modal-form__input" type="tel" name="phone" placeholder="Телефон" aria-label="Телефон" required>
+      <button class="modal-form__btn" type="submit">Получить оптовый прайс</button>
+      <label class="modal-form__agree">
+        <input class="form__checkbox" type="checkbox" name="agree" required>
+        <span class="modal-form__agree-text">Я подтверждаю свое согласие с <a class="form__link" href="privacy.html" target="_blank" rel="noopener">Политикой конфиденциальности</a> и даю <a class="form__link" href="consent.html" target="_blank" rel="noopener">разрешение на обработку моих персональных данных</a></span>
+      </label>
+      <p class="form__captcha-note" hidden>Форма защищена от спама сервисом Yandex SmartCaptcha.</p>
+    </form>
+  </div>
+</div>
+
+<div class="modal" id="modal-how-to-order" hidden>
+  <div class="modal__backdrop" data-modal-close></div>
+  <div class="modal__card" role="dialog" aria-modal="true" aria-labelledby="modal-how-to-order-title">
+    <button class="modal__close" type="button" aria-label="Закрыть" data-modal-close></button>
+    <h2 class="modal__title" id="modal-how-to-order-title">Как сделать заказ и дозаказ?</h2>
+    <div class="modal__text">
+      <p>Сотрудничать с нами просто и выгодно. Мы предлагаем гибкие условия для каждого оптового партнера.</p>
+      <p><b>Всего 3 простых шага для первого заказа:</b></p>
+      <p><b>1. Оставьте заявку</b><br>Заполните форму «Рассчитать заказ» на нашем сайте.</p>
+      <p><b>2. Получите каталог</b><br>Наш менеджер свяжется с вами в ближайшее время. Он вышлет актуальный оптовый прайс, познакомит с моделями и регулярными новинками ассортимента.</p>
+      <p><b>3. Согласуйте детали</b><br>Менеджер поможет сформировать заказ и подберет оптимальный способ оплаты.</p>
+      <p><b>Специальные условия на первый заказ:</b></p>
+      <p><b>Покупка без рядов.</b> При заказе на сумму от 30 000 рублей возможен выкуп товаров без сбора полных размерных рядов.<br><b>Бесплатная доставка.</b> При заказе на сумму от 70 000 рублей мы дарим первую доставку в любой регион РФ!</p>
+      <p><b>Информация о доставке:</b><br>Любая ТК на выбор. Мы отправляем заказы любой удобной для вас транспортной компанией.<br>Быстрая отправка. Чаще всего мы отгружаем заказы через Яндекс Доставку, так как это самый быстрый способ получить товар.</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modal-delivery" hidden>
+  <div class="modal__backdrop" data-modal-close></div>
+  <div class="modal__card modal__card--wide" role="dialog" aria-modal="true" aria-labelledby="modal-delivery-title">
+    <button class="modal__close" type="button" aria-label="Закрыть" data-modal-close></button>
+    <h2 class="modal__title" id="modal-delivery-title">Доставка и правила работы?</h2>
+    <div class="modal__text">
+      <p><b>Мы отправляем заказы БЫСТРО</b> любой транспортной компанией, имеющей филиал в г. Иваново. Любая ТК на выбор. Чаще всего мы отгружаем заказы через Яндекс Доставку, так как это самый быстрый способ получить товар. Доставка заказов осуществляется в любой уголок России, Казахстан, Белоруссию. Доставка до транспортной компании бесплатно!</p>
+      <p>Габаритные размеры заказов</p>
+    </div>
+    <table class="modal-table">
+      <thead>
+        <tr><th>Сумма</th><th>Размер</th><th>Объем</th><th>Масса</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>30 000&#8381;</td><td>0.75x0.5x0.3</td><td>= 0.1125</td><td>18 - 30 кг</td></tr>
+        <tr><td>20 000&#8381;</td><td>0.5x0.5x0.3</td><td>= 0.075</td><td>12 - 20 кг</td></tr>
+        <tr><td>10 000&#8381;</td><td>0.3x0.5x0.5</td><td>= 0.045</td><td>6 - 10 кг</td></tr>
+        <tr><td>5 000&#8381;</td><td>0.25x0.3x0.3</td><td>= 0.0225</td><td>3 - 5 кг</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="modal" id="modal-sizes" hidden>
+  <div class="modal__backdrop" data-modal-close></div>
+  <div class="modal__card modal__card--widest" role="dialog" aria-modal="true" aria-labelledby="modal-sizes-title">
+    <button class="modal__close" type="button" aria-label="Закрыть" data-modal-close></button>
+    <h2 class="modal__title" id="modal-sizes-title">Таблица размеров</h2>
+    <div class="modal__scroll">
+      <table class="modal-table modal-table--sizes">
+        <tbody>
+          <tr><th>Размер</th><td>42</td><td>44</td><td>46</td><td>48</td><td>50</td><td>52</td><td>54</td><td>56</td><td>58</td><td>60</td><td>62</td><td>64</td><td>66</td><td>68</td><td>70</td><td>72</td></tr>
+          <tr><th>Обхват груди, см.</th><td>84</td><td>88</td><td>92</td><td>96</td><td>100</td><td>104</td><td>108</td><td>112</td><td>116</td><td>120</td><td>124</td><td>128</td><td>132</td><td>136</td><td>140</td><td>144</td></tr>
+          <tr><th>Обхват талии, см.</th><td>63.4</td><td>67.6</td><td>71.8</td><td>76</td><td>80.2</td><td>84.4</td><td>89.2</td><td>94</td><td>98.8</td><td>103.6</td><td>108.4</td><td>113.2</td><td>118</td><td>122.8</td><td>127.6</td><td>132.4</td></tr>
+          <tr><th>Обхват бедер, см.</th><td>92</td><td>96</td><td>100</td><td>104</td><td>108</td><td>112</td><td>116</td><td>120</td><td>124</td><td>128</td><td>132</td><td>136</td><td>140</td><td>144</td><td>148</td><td>152</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modal-certificates" hidden>
+  <div class="modal__backdrop" data-modal-close></div>
+  <div class="modal__card modal__card--wide" role="dialog" aria-modal="true" aria-labelledby="modal-certificates-title">
+    <button class="modal__close" type="button" aria-label="Закрыть" data-modal-close></button>
+    <h2 class="modal__title" id="modal-certificates-title">Сертификаты</h2>
+    <div class="gallery" data-gallery>
+      <button class="gallery__nav gallery__nav--prev" type="button" aria-label="Предыдущий документ" data-gallery-prev></button>
+      <div class="gallery__stage">
+        <img src="assets/img/cert-1.webp" srcset="assets/img/cert-1-390.webp 390w, assets/img/cert-1-780.webp 780w, assets/img/cert-1.webp 1134w" sizes="(max-width: 600px) 390px, 1134px" alt="Документ ДомТрик, лист 1 из 5" loading="lazy">
+        <img src="assets/img/cert-2.webp" srcset="assets/img/cert-2-390.webp 390w, assets/img/cert-2-780.webp 780w, assets/img/cert-2.webp 1134w" sizes="(max-width: 600px) 390px, 1134px" alt="Документ ДомТрик, лист 2 из 5" hidden loading="lazy">
+        <img src="assets/img/cert-3.webp" srcset="assets/img/cert-3-390.webp 390w, assets/img/cert-3-780.webp 780w, assets/img/cert-3.webp 1134w" sizes="(max-width: 600px) 390px, 1134px" alt="Документ ДомТрик, лист 3 из 5" hidden loading="lazy">
+        <img src="assets/img/cert-4.webp" srcset="assets/img/cert-4-390.webp 390w, assets/img/cert-4-780.webp 780w, assets/img/cert-4.webp 1134w" sizes="(max-width: 600px) 390px, 1134px" alt="Документ ДомТрик, лист 4 из 5" hidden loading="lazy">
+        <img src="assets/img/cert-5.webp" srcset="assets/img/cert-5-390.webp 390w, assets/img/cert-5-780.webp 780w, assets/img/cert-5.webp 1134w" sizes="(max-width: 600px) 390px, 1134px" alt="Документ ДомТрик, лист 5 из 5" hidden loading="lazy">
+      </div>
+      <button class="gallery__nav gallery__nav--next" type="button" aria-label="Следующий документ" data-gallery-next></button>
+      <p class="gallery__empty">Сканы документов ещё не загружены.</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modal-min-order" hidden>
+  <div class="modal__backdrop" data-modal-close></div>
+  <div class="modal__card" role="dialog" aria-modal="true" aria-labelledby="modal-min-order-title">
+    <button class="modal__close" type="button" aria-label="Закрыть" data-modal-close></button>
+    <h2 class="modal__title" id="modal-min-order-title">Какой минимальный заказ?</h2>
+    <div class="modal__text">
+      <p><b>Ваш мощный старт всего от 30 000 рублей!</b></p>
+      <p>Вам больше не нужно замораживать миллионы в складских остатках. Минимальный порог заказа составляет всего 30 000 рублей. Это идеальный шанс протестировать новый ассортимент, быстро обновить витрину или запустить бизнес без финансового риска. Мы делаем крупный опт доступным для каждого!</p>
+      <p>Мы избавляем вас от главной боли любого магазина — неликвидных остатков и мертвых размеров. Выкупайте товар без привязки к размерным рядам! Забирайте только те позиции, цвета и размеры, которые обожают ваши клиенты. Формируйте идеальную матрицу товаров под ваш запрос.</p>
+      <p><b>Грандиозная акция: <span class="modal__accent">первая доставка БЕСПЛАТНО!</span></b></p>
+      <p>- Бесплатная первая доставка в абсолютно любой регион.<br>- Условие: просто сделайте заказ на сумму от 70 000 рублей.<br>- Скорость: мы отгрузим и отправим ваш заказ в течение 3 дней с момента оформления.</p>
+      <p><b>Выбирайте лучшее, заказывайте гибко и растите вместе с нами!</b></p>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modal-schedule" hidden>
+  <div class="modal__backdrop" data-modal-close></div>
+  <div class="modal__card modal__card--narrow" role="dialog" aria-modal="true" aria-labelledby="modal-schedule-title">
+    <button class="modal__close" type="button" aria-label="Закрыть" data-modal-close></button>
+    <h2 class="modal__title" id="modal-schedule-title">График работы</h2>
+    <table class="modal-table">
+      <thead>
+        <tr><th>ПН - ЧТ</th><th>ПТ</th><th>СБ - ВС</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>08:00 - 17:00</td><td>08:00 - 16:30</td><td>Выходной</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer></script>
+<script src="js/main.js"></script>
+</body>
+</html>

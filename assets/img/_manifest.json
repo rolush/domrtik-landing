@@ -1,0 +1,142 @@
+[
+  {
+    "file": "category-01-platya.png",
+    "section": "Мы производим",
+    "purpose": "Платья",
+    "dimensions": "1012×1248",
+    "sizeKB": 1219
+  },
+  {
+    "file": "category-02-sarafany.png",
+    "section": "Мы производим",
+    "purpose": "Сарафаны",
+    "dimensions": "1012×1248",
+    "sizeKB": 1007
+  },
+  {
+    "file": "category-03-tuniki-halaty.png",
+    "section": "Мы производим",
+    "purpose": "Туники и халаты",
+    "dimensions": "1012×1248",
+    "sizeKB": 1090
+  },
+  {
+    "file": "category-04-domashnie-kostyumy.png",
+    "section": "Мы производим",
+    "purpose": "Домашние костюмы",
+    "dimensions": "1012×1248",
+    "sizeKB": 1083
+  },
+  {
+    "file": "category-05-pizhamy-sorochki.png",
+    "section": "Мы производим",
+    "purpose": "Пижамы и сорочки",
+    "dimensions": "1012×1248",
+    "sizeKB": 1034
+  },
+  {
+    "file": "category-06-bryuki-shorty.png",
+    "section": "Мы производим",
+    "purpose": "Брюки и шорты",
+    "dimensions": "1012×1248",
+    "sizeKB": 1105
+  },
+  {
+    "file": "cta-bg-1.png",
+    "section": "CTA #1",
+    "purpose": "Фон CTA «Подберем ассортимент» (1634×912)",
+    "dimensions": "3268×1824",
+    "sizeKB": 6987
+  },
+  {
+    "file": "cta-bg-2.png",
+    "section": "CTA #2",
+    "purpose": "Фон CTA «Первая доставка в подарок» (1632×911)",
+    "dimensions": "3264×1822",
+    "sizeKB": 3606
+  },
+  {
+    "file": "hero-bg.png",
+    "section": "Hero",
+    "purpose": "Фоновое фото Hero (1532×866)",
+    "dimensions": "3064×1732",
+    "sizeKB": 5337
+  },
+  {
+    "file": "manager-avatar-1.png",
+    "section": "MAX dialog",
+    "purpose": "Аватар менеджера 1 (плашка «Продолжить диалог в MAX»)",
+    "dimensions": "390×260",
+    "sizeKB": 117
+  },
+  {
+    "file": "manager-avatar-2.png",
+    "section": "MAX dialog",
+    "purpose": "Аватар менеджера 2 (плашка «Продолжить диалог в MAX»)",
+    "dimensions": "402×268",
+    "sizeKB": 121
+  },
+  {
+    "file": "product-01-anyuta.png",
+    "section": "Хиты продаж",
+    "purpose": "Сарафан кулирка «АНЮТА» — 720 ₽, олива",
+    "dimensions": "1400×800",
+    "sizeKB": 1731
+  },
+  {
+    "file": "product-02-oliviya.png",
+    "section": "Хиты продаж",
+    "purpose": "Сарафан кулирка «ОЛИВИЯ» — 650 ₽, голубой",
+    "dimensions": "1400×800",
+    "sizeKB": 1683
+  },
+  {
+    "file": "product-03-maya.png",
+    "section": "Хиты продаж",
+    "purpose": "Халат кулирка «МАЙЯ» — 830 ₽, оранж",
+    "dimensions": "1400×800",
+    "sizeKB": 1561
+  },
+  {
+    "file": "product-04-savanna.png",
+    "section": "Хиты продаж",
+    "purpose": "Костюм с брюками «САВАННА» — 950 ₽, оранж",
+    "dimensions": "1400×800",
+    "sizeKB": 1999
+  },
+  {
+    "file": "product-05-zarina.png",
+    "section": "Хиты продаж",
+    "purpose": "Костюм футер «ЗАРИНА» — 1740 ₽, индиго",
+    "dimensions": "1400×800",
+    "sizeKB": 1852
+  },
+  {
+    "file": "product-06-agniya.png",
+    "section": "Хиты продаж",
+    "purpose": "Платье кулирка «АГНИЯ» — 780 ₽, лайм",
+    "dimensions": "1400×800",
+    "sizeKB": 1866
+  },
+  {
+    "file": "product-07-vlada.png",
+    "section": "Хиты продаж",
+    "purpose": "Платье кулирка «ВЛАДА» — 840 ₽, беж полоса",
+    "dimensions": "1400×800",
+    "sizeKB": 1466
+  },
+  {
+    "file": "product-08-perfekt.png",
+    "section": "Хиты продаж",
+    "purpose": "Платье с капюшоном «ПЕРФЕКТ» — 780 ₽",
+    "dimensions": "1400×800",
+    "sizeKB": 1632
+  },
+  {
+    "file": "product-09-tbd.png",
+    "section": "Хиты продаж",
+    "purpose": "Девятый товар (название не подтверждено — проверьте по макету)",
+    "dimensions": "1400×800",
+    "sizeKB": 1970
+  }
+]
