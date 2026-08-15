@@ -7,8 +7,10 @@ import sharp from 'sharp'
 
 import { Users } from './collections/Users'
 import { Media } from './collections/Media'
+import { Leads } from './collections/Leads'
 import { HomePage } from './globals/HomePage'
 import { SiteSettings } from './globals/SiteSettings'
+import { migrations } from './migrations'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -20,7 +22,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Users, Media],
+  collections: [Users, Media, Leads],
   globals: [SiteSettings, HomePage],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
@@ -31,6 +33,8 @@ export default buildConfig({
     client: {
       url: process.env.DATABASE_URL || '',
     },
+    prodMigrations: migrations,
+    push: false,
   }),
   sharp,
   plugins: [],

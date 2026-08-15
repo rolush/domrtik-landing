@@ -300,7 +300,7 @@ document.querySelectorAll("[data-gallery]").forEach((gallery) => {
     return firstInvalid;
   };
 
-  const ENDPOINT = "send.php";
+  const ENDPOINT = "/api/leads/submit";
 
   const note = (form, text, isError) => {
     form.querySelectorAll(".form-note").forEach((el) => el.remove());

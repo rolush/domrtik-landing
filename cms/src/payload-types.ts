@@ -69,6 +69,7 @@ export interface Config {
   collections: {
     users: User;
     media: Media;
+    leads: Lead;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -78,6 +79,7 @@ export interface Config {
   collectionsSelect: {
     users: UsersSelect<false> | UsersSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
+    leads: LeadsSelect<false> | LeadsSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -169,6 +171,20 @@ export interface Media {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "leads".
+ */
+export interface Lead {
+  id: number;
+  name: string;
+  email: string;
+  phone: string;
+  source: string;
+  status: 'new' | 'in_progress' | 'done' | 'spam';
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
 export interface PayloadKv {
@@ -198,6 +214,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'media';
         value: number | Media;
+      } | null)
+    | ({
+        relationTo: 'leads';
+        value: number | Lead;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -283,6 +303,19 @@ export interface MediaSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "leads_select".
+ */
+export interface LeadsSelect<T extends boolean = true> {
+  name?: T;
+  email?: T;
+  phone?: T;
+  source?: T;
+  status?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv_select".
  */
 export interface PayloadKvSelect<T extends boolean = true> {
@@ -330,7 +363,18 @@ export interface SiteSetting {
   email: string;
   phonePrimary: string;
   phoneSecondary: string;
+  address?: string | null;
+  schedule?:
+    | {
+        days: string;
+        time: string;
+        id?: string | null;
+      }[]
+    | null;
   maxUrl?: string | null;
+  vkUrl?: string | null;
+  okUrl?: string | null;
+  rutubeUrl?: string | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -373,6 +417,73 @@ export interface HomePage {
         id?: string | null;
       }[]
     | null;
+  benefits?:
+    | {
+        chip: string;
+        prefix?: string | null;
+        value: string;
+        suffix?: string | null;
+        label: string;
+        id?: string | null;
+      }[]
+    | null;
+  reasons?:
+    | {
+        title: string;
+        description: string;
+        id?: string | null;
+      }[]
+    | null;
+  reasonsCallToAction?: {
+    text?: string | null;
+    buttonLabel?: string | null;
+  };
+  assortmentCallToAction?: {
+    titleStart?: string | null;
+    titleAccent?: string | null;
+    titleEnd?: string | null;
+    note?: string | null;
+    buttonLabel?: string | null;
+    image?: (number | null) | Media;
+  };
+  about?: {
+    title?: string | null;
+    text?: string | null;
+    experienceValue?: string | null;
+    experienceLabel?: string | null;
+    modelsValue?: string | null;
+    modelsLabel?: string | null;
+    poster?: (number | null) | Media;
+    videoWebm?: (number | null) | Media;
+    videoMp4?: (number | null) | Media;
+  };
+  delivery?: {
+    start?: string | null;
+    strong?: string | null;
+    middle?: string | null;
+    amount?: string | null;
+    terms?: string | null;
+    buttonLabel?: string | null;
+  };
+  faq?:
+    | {
+        question: string;
+        answer?: string | null;
+        id?: string | null;
+      }[]
+    | null;
+  geography?: {
+    accent?: string | null;
+    title?: string | null;
+    note?: string | null;
+    image?: (number | null) | Media;
+  };
+  certificates?:
+    | {
+        image: number | Media;
+        id?: string | null;
+      }[]
+    | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -384,7 +495,18 @@ export interface SiteSettingsSelect<T extends boolean = true> {
   email?: T;
   phonePrimary?: T;
   phoneSecondary?: T;
+  address?: T;
+  schedule?:
+    | T
+    | {
+        days?: T;
+        time?: T;
+        id?: T;
+      };
   maxUrl?: T;
+  vkUrl?: T;
+  okUrl?: T;
+  rutubeUrl?: T;
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;
@@ -426,6 +548,83 @@ export interface HomePageSelect<T extends boolean = true> {
         price?: T;
         color?: T;
         badge?: T;
+        image?: T;
+        id?: T;
+      };
+  benefits?:
+    | T
+    | {
+        chip?: T;
+        prefix?: T;
+        value?: T;
+        suffix?: T;
+        label?: T;
+        id?: T;
+      };
+  reasons?:
+    | T
+    | {
+        title?: T;
+        description?: T;
+        id?: T;
+      };
+  reasonsCallToAction?:
+    | T
+    | {
+        text?: T;
+        buttonLabel?: T;
+      };
+  assortmentCallToAction?:
+    | T
+    | {
+        titleStart?: T;
+        titleAccent?: T;
+        titleEnd?: T;
+        note?: T;
+        buttonLabel?: T;
+        image?: T;
+      };
+  about?:
+    | T
+    | {
+        title?: T;
+        text?: T;
+        experienceValue?: T;
+        experienceLabel?: T;
+        modelsValue?: T;
+        modelsLabel?: T;
+        poster?: T;
+        videoWebm?: T;
+        videoMp4?: T;
+      };
+  delivery?:
+    | T
+    | {
+        start?: T;
+        strong?: T;
+        middle?: T;
+        amount?: T;
+        terms?: T;
+        buttonLabel?: T;
+      };
+  faq?:
+    | T
+    | {
+        question?: T;
+        answer?: T;
+        id?: T;
+      };
+  geography?:
+    | T
+    | {
+        accent?: T;
+        title?: T;
+        note?: T;
+        image?: T;
+      };
+  certificates?:
+    | T
+    | {
         image?: T;
         id?: T;
       };
