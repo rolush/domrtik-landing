@@ -1,0 +1,28 @@
+# Dependencies, build output, caches and test artifacts
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+.cache/
+
+# Secrets and local state
+.env
+.env.*
+*.pem
+*.key
+config.php
+cms.db*
+media/
+
+# Generated project files
+graphify-out/
+cms/src/payload-types.ts
+cms/src/migrations/
+cms/src/app/(payload)/admin/importMap.js
+**/assets/**/_manifest.json
+package-lock.json

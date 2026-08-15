@@ -1,0 +1,6 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "knowledge/attachments",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": false
+}
