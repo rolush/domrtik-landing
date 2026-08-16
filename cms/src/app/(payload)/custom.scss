@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Vela Sans';
+  src: url('/landing/assets/fonts/VelaSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vela Sans';
+  src: url('/landing/assets/fonts/VelaSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --domtrik-orange: #ff510f;
+  --domtrik-orange-hover: #e84508;
+  --font-body: 'Vela Sans', 'Segoe UI', Arial, sans-serif;
+  --style-radius-s: 8px;
+  --style-radius-m: 12px;
+  --style-radius-l: 16px;
+}
+
+.domtrik-logo {
+  display: block;
+  width: min(237px, 100%);
+  height: auto;
+}
+
+.domtrik-icon {
+  display: block;
+  width: 34px;
+  height: 34px;
+}
+
+.upload-field-card.upload-field-card--size-medium {
+  padding: 12px;
+  gap: 12px;
+
+  .thumbnail {
+    width: 112px;
+    height: 112px;
+    max-height: none;
+    background: var(--theme-elevation-100);
+
+    img,
+    svg {
+      object-fit: contain;
+    }
+  }
+
+  .upload-relationship-details__imageAndDetails {
+    gap: 16px;
+  }
+
+  .upload-relationship-details__filename {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .upload-relationship-details__meta {
+    margin-top: 4px;
+    font-size: 13px;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  .upload-field-card.upload-field-card--size-medium .thumbnail {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.btn--style-primary {
+  --bg-color: var(--domtrik-orange);
+  --hover-bg: var(--domtrik-orange-hover);
+  --color: #fff;
+  --hover-color: #fff;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline-color: var(--domtrik-orange);
+}

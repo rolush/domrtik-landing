@@ -10,6 +10,8 @@
     "devsafe": "npm run migrate && rm -rf .next && cross-env NODE_OPTIONS=--no-deprecation next dev",
     "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
     "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
+    "import:landing-media": "cross-env NODE_OPTIONS=--no-deprecation tsx src/scripts/import-landing-media.ts",
+    "seed:legal-pages": "cross-env NODE_OPTIONS=--no-deprecation tsx src/scripts/seed-legal-pages.ts",
     "lint": "cross-env NODE_OPTIONS=--no-deprecation eslint .",
     "migrate": "cross-env NODE_OPTIONS=--no-deprecation payload migrate",
     "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",

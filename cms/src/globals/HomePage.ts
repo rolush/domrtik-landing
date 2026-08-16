@@ -68,6 +68,7 @@ export const HomePage: GlobalConfig = {
         {
           name: 'badges',
           label: 'Бейджи',
+          labels: { singular: 'Бейдж', plural: 'Бейджи' },
           type: 'array',
           maxRows: 2,
           defaultValue: [{ text: 'Честный Знак' }, { text: 'Полный пакет документов' }],
@@ -79,6 +80,7 @@ export const HomePage: GlobalConfig = {
     {
       name: 'categories',
       label: 'Категории продукции',
+      labels: { singular: 'Категория', plural: 'Категории' },
       type: 'array',
       maxRows: 6,
       defaultValue: categories,
@@ -90,6 +92,7 @@ export const HomePage: GlobalConfig = {
     {
       name: 'hits',
       label: 'Хиты продаж',
+      labels: { singular: 'Товар', plural: 'Товары' },
       type: 'array',
       maxRows: 9,
       defaultValue: hits,
@@ -104,6 +107,7 @@ export const HomePage: GlobalConfig = {
     {
       name: 'benefits',
       label: 'Преимущества',
+      labels: { singular: 'Преимущество', plural: 'Преимущества' },
       type: 'array',
       maxRows: 4,
       defaultValue: benefits,
@@ -118,6 +122,7 @@ export const HomePage: GlobalConfig = {
     {
       name: 'reasons',
       label: 'Причины сотрудничества',
+      labels: { singular: 'Причина', plural: 'Причины' },
       type: 'array',
       maxRows: 5,
       defaultValue: reasons,
@@ -185,6 +190,7 @@ export const HomePage: GlobalConfig = {
     {
       name: 'faq',
       label: 'Вопросы и ответы',
+      labels: { singular: 'Вопрос', plural: 'Вопросы' },
       type: 'array',
       maxRows: 6,
       defaultValue: faq,
@@ -207,6 +213,7 @@ export const HomePage: GlobalConfig = {
     {
       name: 'certificates',
       label: 'Сертификаты',
+      labels: { singular: 'Сертификат', plural: 'Сертификаты' },
       type: 'array',
       maxRows: 5,
       fields: [{ name: 'image', label: 'Документ', type: 'upload', relationTo: 'media', required: true }],

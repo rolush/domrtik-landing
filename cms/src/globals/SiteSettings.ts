@@ -15,6 +15,7 @@ export const SiteSettings: GlobalConfig = {
     {
       name: 'schedule',
       label: 'Режим работы',
+      labels: { singular: 'Строка режима работы', plural: 'Строки режима работы' },
       type: 'array',
       maxRows: 3,
       defaultValue: [
