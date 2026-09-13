@@ -8,6 +8,7 @@ const dirname = path.dirname(__filename)
 
 const nextConfig: NextConfig = {
   devIndicators: false,
+  output: 'standalone',
   images: {
     localPatterns: [
       {
