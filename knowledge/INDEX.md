@@ -20,6 +20,7 @@ status: active
 
 - [[knowledge/decisions/2026-08-15-project-memory|Постоянная проектная память]]
 - [[knowledge/decisions/2026-09-11-beget-payload-hosting|Payload CMS на Beget]]
+- [[knowledge/decisions/2026-09-14-yandex-smtp|Яндекс SMTP для публичного лендинга]]
 
 ## Сессии
 
@@ -31,6 +32,7 @@ status: active
 - [[knowledge/sessions/2026-08-16-1200-consent-page|Согласие на обработку персональных данных]]
 - [[knowledge/sessions/2026-08-16-1212-editable-legal-pages|Редактируемые юридические страницы]]
 - [[knowledge/sessions/2026-09-11-1835-beget-payload-deployment|Развёртывание Payload CMS на Beget]]
+- [[knowledge/sessions/2026-09-14-2118-smtp-investigation|Диагностика SMTP для opt.domtrik.ru]]
 
 ## Рабочие каталоги
 

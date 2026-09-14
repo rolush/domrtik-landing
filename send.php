@@ -208,7 +208,11 @@ function smtp_send(array $config, string $to, string $message): void
         fwrite($socket, $command . "\r\n");
         [$code, $text] = $read();
         if (!in_array($code, $expected, true)) {
-            throw new RuntimeException("SMTP ответил «$text» на «" . explode(' ', $command)[0] . '»');
+            $verb = strtoupper(strtok($command, ' '));
+            $safeVerb = in_array($verb, ['EHLO', 'STARTTLS', 'AUTH', 'MAIL', 'RCPT', 'DATA', 'QUIT'], true)
+                ? $verb
+                : 'AUTH credentials';
+            throw new RuntimeException("SMTP ответил «$text» на «$safeVerb»");
         }
     };
 
