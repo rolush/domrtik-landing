@@ -13,7 +13,7 @@ status: accepted
 ## Решение
 
 Публичная форма `opt.domtrik.ru` отправляет письма через Яндекс SMTP из
-`send.php`. Отправитель и получатель настроены на `rolush@yandex.ru`.
+`send.php`. Отправитель и получатель настроены на `support@cadesign.ru`.
 Пароль приложения хранится только в закрытом production-файле `config.php`,
 который исключён из Git.
 
@@ -33,7 +33,7 @@ status: accepted
 ## Откат
 
 Восстановить production-конфигурацию из
-`config.php.before-yandex-20260914-2130` и отозвать пароль приложения в
+`config.php.before-support-retry-20260914-2206` и отозвать пароль приложения в
 Яндекс ID.
 
 ## Связанные заметки
