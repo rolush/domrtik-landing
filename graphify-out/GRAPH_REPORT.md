@@ -1,16 +1,16 @@
 # Graph Report - domtrik  (2026-09-14)
 
 ## Corpus Check
-- 65 files · ~792,017 words
+- 67 files · ~792,732 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 396 nodes · 370 edges · 56 communities (45 shown, 11 thin omitted)
+- 417 nodes · 389 edges · 58 communities (47 shown, 11 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b3a7476c`
+- Built from commit: `1c161e1d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -60,18 +60,20 @@
 - [[...segments]]/page.tsx
 - graphql/route.ts
 - graphql-playground/route.ts
+- Ручная настройка SMTP DNS в Cloudflare
+- Смена почтового ящика лендинга на support@cadesign.ru
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
 2. `scripts` - 15 edges
-3. `Диагностика SMTP для opt.domtrik.ru` - 9 edges
-4. `Развёртывание Payload CMS на Beget` - 9 edges
-5. `Ассеты` - 9 edges
-6. `DOMTRIK — Landing Page` - 9 edges
-7. `Настройка постоянной проектной памяти` - 9 edges
-8. `Русификация и брендинг админки` - 9 edges
-9. `Крупные миниатюры изображений в админке` - 9 edges
-10. `Отключение индикатора Next.js` - 9 edges
+3. `Ручная настройка SMTP DNS в Cloudflare` - 9 edges
+4. `Смена почтового ящика лендинга на support@cadesign.ru` - 9 edges
+5. `Диагностика SMTP для opt.domtrik.ru` - 9 edges
+6. `Развёртывание Payload CMS на Beget` - 9 edges
+7. `Ассеты` - 9 edges
+8. `DOMTRIK — Landing Page` - 9 edges
+9. `Настройка постоянной проектной памяти` - 9 edges
+10. `Русификация и брендинг админки` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `onlyBuiltDependencies` --extends--> `sharp`  [EXTRACTED]
@@ -80,7 +82,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (56 total, 11 thin omitted)
+## Communities (58 total, 11 thin omitted)
 
 ### Community 0 - "payload.config.ts"
 Cohesion: 0.18
@@ -163,8 +165,8 @@ Cohesion: 0.33
 Nodes (5): Контекст, Последствия, Постоянная проектная память Graphify и Obsidian, Решение, Связи
 
 ### Community 20 - "Проектная память DOMTRIK"
-Cohesion: 0.33
-Nodes (5): Начать отсюда, Проектная память DOMTRIK, Рабочие каталоги, Решения, Сессии
+Cohesion: 0.29
+Nodes (6): Начать отсюда, Проектная память DOMTRIK, Рабочие каталоги, Решения, Руководства, Сессии
 
 ### Community 22 - ".prettierrc.json"
 Cohesion: 0.40
@@ -218,8 +220,16 @@ Nodes (5): assetsDir, categories, certificates, dirname, hits
 Cohesion: 0.60
 Nodes (3): fail(), Leads, submitLead()
 
+### Community 56 - "Ручная настройка SMTP DNS в Cloudflare"
+Cohesion: 0.20
+Nodes (9): Безопасность, Добавить DKIM, Добавить статистику SMTP.BZ, Объединить SPF, Откат, Открыть DNS-зону, Проверить, Ручная настройка SMTP DNS в Cloudflare (+1 more)
+
+### Community 57 - "Смена почтового ящика лендинга на support@cadesign.ru"
+Cohesion: 0.20
+Nodes (9): Изменённые файлы и службы, Остаток, Откат, Проверки, Решения, Риски, Связанные заметки, Смена почтового ящика лендинга на support@cadesign.ru (+1 more)
+
 ## Knowledge Gaps
-- **242 isolated node(s):** `Активный контекст`, `Следующие действия`, `Известные риски`, `Начать отсюда`, `Решения` (+237 more)
+- **259 isolated node(s):** `Активный контекст`, `Следующие действия`, `Известные риски`, `Начать отсюда`, `Решения` (+254 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -227,11 +237,11 @@ Nodes (3): fail(), Leads, submitLead()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `onlyBuiltDependencies` connect `scripts` to `payload.config.ts`?**
-  _High betweenness centrality (0.078) - this node is a cross-community bridge._
+  _High betweenness centrality (0.070) - this node is a cross-community bridge._
 - **Why does `sharp` connect `payload.config.ts` to `scripts`?**
-  _High betweenness centrality (0.076) - this node is a cross-community bridge._
+  _High betweenness centrality (0.068) - this node is a cross-community bridge._
 - **What connects `Активный контекст`, `Следующие действия`, `Известные риски` to the rest of the system?**
-  _242 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _259 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `devDependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `scripts` be split into smaller, more focused modules?**

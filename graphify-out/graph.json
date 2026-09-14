@@ -40,7 +40,7 @@
       "label": "\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
       "file_type": "document",
       "source_file": "knowledge/CURRENT.md",
-      "source_location": "L37",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "knowledge_current_\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435_\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
       "community": 24,
@@ -51,7 +51,7 @@
       "label": "\u0418\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0435 \u0440\u0438\u0441\u043a\u0438",
       "file_type": "document",
       "source_file": "knowledge/CURRENT.md",
-      "source_location": "L47",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "knowledge_current_\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0435_\u0440\u0438\u0441\u043a\u0438",
       "community": 24,
@@ -103,10 +103,21 @@
       "norm_label": "\u0440\u0435\u0448\u0435\u043d\u0438\u044f"
     },
     {
-      "label": "\u0421\u0435\u0441\u0441\u0438\u0438",
+      "label": "\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
       "file_type": "document",
       "source_file": "knowledge/INDEX.md",
       "source_location": "L25",
+      "_origin": "ast",
+      "id": "knowledge_index_\u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+      "community": 20,
+      "community_name": "\u041f\u0440\u043e\u0435\u043a\u0442\u043d\u0430\u044f \u043f\u0430\u043c\u044f\u0442\u044c DOMTRIK",
+      "norm_label": "\u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430"
+    },
+    {
+      "label": "\u0421\u0435\u0441\u0441\u0438\u0438",
+      "file_type": "document",
+      "source_file": "knowledge/INDEX.md",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "knowledge_index_\u0441\u0435\u0441\u0441\u0438\u0438",
       "community": 20,
@@ -117,7 +128,7 @@
       "label": "\u0420\u0430\u0431\u043e\u0447\u0438\u0435 \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0438",
       "file_type": "document",
       "source_file": "knowledge/INDEX.md",
-      "source_location": "L37",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "knowledge_index_\u0440\u0430\u0431\u043e\u0447\u0438\u0435_\u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0438",
       "community": 20,
@@ -125,15 +136,235 @@
       "norm_label": "\u0440\u0430\u0431\u043e\u0447\u0438\u0435 \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0438"
     },
     {
+      "label": "cloudflare-smtp-dns.md",
+      "file_type": "document",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "knowledge_cloudflare_smtp_dns",
+      "community": 56,
+      "community_name": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "norm_label": "cloudflare-smtp-dns.md"
+    },
+    {
+      "label": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "file_type": "document",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "knowledge_cloudflare_smtp_dns_\u0440\u0443\u0447\u043d\u0430\u044f_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_smtp_dns_\u0432_cloudflare",
+      "community": 56,
+      "community_name": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "norm_label": "\u0440\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0438\u043a\u0430 smtp dns \u0432 cloudflare"
+    },
+    {
+      "label": "\u041e\u0442\u043a\u0440\u044b\u0442\u044c DNS-\u0437\u043e\u043d\u0443",
+      "file_type": "document",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "knowledge_cloudflare_smtp_dns_\u043e\u0442\u043a\u0440\u044b\u0442\u044c_dns_\u0437\u043e\u043d\u0443",
+      "community": 56,
+      "community_name": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "norm_label": "\u043e\u0442\u043a\u0440\u044b\u0442\u044c dns-\u0437\u043e\u043d\u0443"
+    },
+    {
+      "label": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c DKIM",
+      "file_type": "document",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "knowledge_cloudflare_smtp_dns_\u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c_dkim",
+      "community": 56,
+      "community_name": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "norm_label": "\u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c dkim"
+    },
+    {
+      "label": "\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0438\u0442\u044c SPF",
+      "file_type": "document",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "knowledge_cloudflare_smtp_dns_\u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0438\u0442\u044c_spf",
+      "community": 56,
+      "community_name": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "norm_label": "\u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0438\u0442\u044c spf"
+    },
+    {
+      "label": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0443 SMTP.BZ",
+      "file_type": "document",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "knowledge_cloudflare_smtp_dns_\u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c_\u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0443_smtp_bz",
+      "community": 56,
+      "community_name": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "norm_label": "\u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0443 smtp.bz"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c",
+      "file_type": "document",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "knowledge_cloudflare_smtp_dns_\u043f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c",
+      "community": 56,
+      "community_name": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c"
+    },
+    {
+      "label": "\u041e\u0442\u043a\u0430\u0442",
+      "file_type": "document",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "knowledge_cloudflare_smtp_dns_\u043e\u0442\u043a\u0430\u0442",
+      "community": 56,
+      "community_name": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "norm_label": "\u043e\u0442\u043a\u0430\u0442"
+    },
+    {
+      "label": "\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+      "file_type": "document",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "knowledge_cloudflare_smtp_dns_\u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+      "community": 56,
+      "community_name": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "norm_label": "\u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c"
+    },
+    {
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "file_type": "document",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "knowledge_cloudflare_smtp_dns_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "community": 56,
+      "community_name": "\u0420\u0443\u0447\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SMTP DNS \u0432 Cloudflare",
+      "norm_label": "\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438"
+    },
+    {
+      "label": "2026-09-14-2158-support-mailbox-change.md",
+      "file_type": "document",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "knowledge_sessions_2026_09_14_2158_support_mailbox_change",
+      "community": 57,
+      "community_name": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "norm_label": "2026-09-14-2158-support-mailbox-change.md"
+    },
+    {
+      "label": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "file_type": "document",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u043c\u0435\u043d\u0430_\u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e_\u044f\u0449\u0438\u043a\u0430_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430_\u043d\u0430_support_cadesign_ru",
+      "community": 57,
+      "community_name": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "norm_label": "\u0441\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru"
+    },
+    {
+      "label": "\u0427\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u043d\u043e",
+      "file_type": "document",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0447\u0442\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e",
+      "community": 57,
+      "community_name": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "norm_label": "\u0447\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u043d\u043e"
+    },
+    {
+      "label": "\u0418\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b \u0438 \u0441\u043b\u0443\u0436\u0431\u044b",
+      "file_type": "document",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0438\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0441\u043b\u0443\u0436\u0431\u044b",
+      "community": 57,
+      "community_name": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "norm_label": "\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u043d\u044b\u0435 \u0444\u0430\u0438\u043b\u044b \u0438 \u0441\u043b\u0443\u0436\u0431\u044b"
+    },
+    {
+      "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
+      "file_type": "document",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
+      "community": 57,
+      "community_name": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438"
+    },
+    {
+      "label": "\u0420\u0435\u0448\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "community": 57,
+      "community_name": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "norm_label": "\u0440\u0435\u0448\u0435\u043d\u0438\u044f"
+    },
+    {
+      "label": "\u041e\u0441\u0442\u0430\u0442\u043e\u043a",
+      "file_type": "document",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u043e\u0441\u0442\u0430\u0442\u043e\u043a",
+      "community": 57,
+      "community_name": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "norm_label": "\u043e\u0441\u0442\u0430\u0442\u043e\u043a"
+    },
+    {
+      "label": "\u0420\u0438\u0441\u043a\u0438",
+      "file_type": "document",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0440\u0438\u0441\u043a\u0438",
+      "community": 57,
+      "community_name": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "norm_label": "\u0440\u0438\u0441\u043a\u0438"
+    },
+    {
+      "label": "\u041e\u0442\u043a\u0430\u0442",
+      "file_type": "document",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u043e\u0442\u043a\u0430\u0442",
+      "community": 57,
+      "community_name": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "norm_label": "\u043e\u0442\u043a\u0430\u0442"
+    },
+    {
+      "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "file_type": "document",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "community": 57,
+      "community_name": "\u0421\u043c\u0435\u043d\u0430 \u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e \u044f\u0449\u0438\u043a\u0430 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430 \u043d\u0430 support@cadesign.ru",
+      "norm_label": "\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438"
+    },
+    {
       "label": "2026-09-14-yandex-smtp.md",
       "file_type": "document",
       "source_file": "knowledge/decisions/2026-09-14-yandex-smtp.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_14_yandex_smtp",
       "community": 48,
       "community_name": "\u042f\u043d\u0434\u0435\u043a\u0441 SMTP \u0434\u043b\u044f \u043f\u0438\u0441\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "norm_label": "2026-09-14-yandex-smtp.md"
+      "norm_label": "2026-09-14-yandex-smtp.md",
+      "id": "knowledge_decisions_2026_09_14_yandex_smtp"
     },
     {
       "label": "\u042f\u043d\u0434\u0435\u043a\u0441 SMTP \u0434\u043b\u044f \u043f\u0438\u0441\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
@@ -141,10 +372,10 @@
       "source_file": "knowledge/decisions/2026-09-14-yandex-smtp.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u044f\u043d\u0434\u0435\u043a\u0441_smtp_\u0434\u043b\u044f_\u043f\u0438\u0441\u0435\u043c_\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
       "community": 48,
       "community_name": "\u042f\u043d\u0434\u0435\u043a\u0441 SMTP \u0434\u043b\u044f \u043f\u0438\u0441\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "norm_label": "\u044f\u043d\u0434\u0435\u043a\u0441 smtp \u0434\u043b\u044f \u043f\u0438\u0441\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430"
+      "norm_label": "\u044f\u043d\u0434\u0435\u043a\u0441 smtp \u0434\u043b\u044f \u043f\u0438\u0441\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
+      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u044f\u043d\u0434\u0435\u043a\u0441_smtp_\u0434\u043b\u044f_\u043f\u0438\u0441\u0435\u043c_\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430"
     },
     {
       "label": "\u0420\u0435\u0448\u0435\u043d\u0438\u0435",
@@ -152,10 +383,10 @@
       "source_file": "knowledge/decisions/2026-09-14-yandex-smtp.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u0440\u0435\u0448\u0435\u043d\u0438\u0435",
       "community": 48,
       "community_name": "\u042f\u043d\u0434\u0435\u043a\u0441 SMTP \u0434\u043b\u044f \u043f\u0438\u0441\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "norm_label": "\u0440\u0435\u0448\u0435\u043d\u0438\u0435"
+      "norm_label": "\u0440\u0435\u0448\u0435\u043d\u0438\u0435",
+      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u0440\u0435\u0448\u0435\u043d\u0438\u0435"
     },
     {
       "label": "\u041f\u0440\u0438\u0447\u0438\u043d\u044b",
@@ -163,10 +394,10 @@
       "source_file": "knowledge/decisions/2026-09-14-yandex-smtp.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u043f\u0440\u0438\u0447\u0438\u043d\u044b",
       "community": 48,
       "community_name": "\u042f\u043d\u0434\u0435\u043a\u0441 SMTP \u0434\u043b\u044f \u043f\u0438\u0441\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "norm_label": "\u043f\u0440\u0438\u0447\u0438\u043d\u044b"
+      "norm_label": "\u043f\u0440\u0438\u0447\u0438\u043d\u044b",
+      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u043f\u0440\u0438\u0447\u0438\u043d\u044b"
     },
     {
       "label": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
@@ -174,10 +405,10 @@
       "source_file": "knowledge/decisions/2026-09-14-yandex-smtp.md",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
       "community": 48,
       "community_name": "\u042f\u043d\u0434\u0435\u043a\u0441 SMTP \u0434\u043b\u044f \u043f\u0438\u0441\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "norm_label": "\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f"
+      "norm_label": "\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
+      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f"
     },
     {
       "label": "\u041e\u0442\u043a\u0430\u0442",
@@ -185,10 +416,10 @@
       "source_file": "knowledge/decisions/2026-09-14-yandex-smtp.md",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u043e\u0442\u043a\u0430\u0442",
       "community": 48,
       "community_name": "\u042f\u043d\u0434\u0435\u043a\u0441 SMTP \u0434\u043b\u044f \u043f\u0438\u0441\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "norm_label": "\u043e\u0442\u043a\u0430\u0442"
+      "norm_label": "\u043e\u0442\u043a\u0430\u0442",
+      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u043e\u0442\u043a\u0430\u0442"
     },
     {
       "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
@@ -196,10 +427,10 @@
       "source_file": "knowledge/decisions/2026-09-14-yandex-smtp.md",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
       "community": 48,
       "community_name": "\u042f\u043d\u0434\u0435\u043a\u0441 SMTP \u0434\u043b\u044f \u043f\u0438\u0441\u0435\u043c \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "norm_label": "\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438"
+      "norm_label": "\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "id": "knowledge_decisions_2026_09_14_yandex_smtp_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
       "label": "2026-09-14-2118-smtp-investigation.md",
@@ -207,10 +438,10 @@
       "source_file": "knowledge/sessions/2026-09-14-2118-smtp-investigation.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation",
       "community": 15,
       "community_name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
-      "norm_label": "2026-09-14-2118-smtp-investigation.md"
+      "norm_label": "2026-09-14-2118-smtp-investigation.md",
+      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation"
     },
     {
       "label": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
@@ -218,10 +449,10 @@
       "source_file": "knowledge/sessions/2026-09-14-2118-smtp-investigation.md",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru",
       "community": 15,
       "community_name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
-      "norm_label": "\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 smtp \u0434\u043b\u044f opt.domtrik.ru"
+      "norm_label": "\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 smtp \u0434\u043b\u044f opt.domtrik.ru",
+      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru"
     },
     {
       "label": "\u0427\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u043d\u043e",
@@ -229,10 +460,10 @@
       "source_file": "knowledge/sessions/2026-09-14-2118-smtp-investigation.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0447\u0442\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e",
       "community": 15,
       "community_name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
-      "norm_label": "\u0447\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u043d\u043e"
+      "norm_label": "\u0447\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u043d\u043e",
+      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0447\u0442\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e"
     },
     {
       "label": "\u0418\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b \u0438 \u0441\u043b\u0443\u0436\u0431\u044b",
@@ -240,10 +471,10 @@
       "source_file": "knowledge/sessions/2026-09-14-2118-smtp-investigation.md",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0438\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0441\u043b\u0443\u0436\u0431\u044b",
       "community": 15,
       "community_name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
-      "norm_label": "\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u043d\u044b\u0435 \u0444\u0430\u0438\u043b\u044b \u0438 \u0441\u043b\u0443\u0436\u0431\u044b"
+      "norm_label": "\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u043d\u044b\u0435 \u0444\u0430\u0438\u043b\u044b \u0438 \u0441\u043b\u0443\u0436\u0431\u044b",
+      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0438\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0441\u043b\u0443\u0436\u0431\u044b"
     },
     {
       "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
@@ -251,10 +482,10 @@
       "source_file": "knowledge/sessions/2026-09-14-2118-smtp-investigation.md",
       "source_location": "L45",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
       "community": 15,
       "community_name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
-      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438"
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
+      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438"
     },
     {
       "label": "\u0420\u0435\u0448\u0435\u043d\u0438\u044f",
@@ -262,10 +493,10 @@
       "source_file": "knowledge/sessions/2026-09-14-2118-smtp-investigation.md",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
       "community": 15,
       "community_name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
-      "norm_label": "\u0440\u0435\u0448\u0435\u043d\u0438\u044f"
+      "norm_label": "\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0440\u0435\u0448\u0435\u043d\u0438\u044f"
     },
     {
       "label": "\u041e\u0441\u0442\u0430\u0442\u043e\u043a",
@@ -273,10 +504,10 @@
       "source_file": "knowledge/sessions/2026-09-14-2118-smtp-investigation.md",
       "source_location": "L65",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043e\u0441\u0442\u0430\u0442\u043e\u043a",
       "community": 15,
       "community_name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
-      "norm_label": "\u043e\u0441\u0442\u0430\u0442\u043e\u043a"
+      "norm_label": "\u043e\u0441\u0442\u0430\u0442\u043e\u043a",
+      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043e\u0441\u0442\u0430\u0442\u043e\u043a"
     },
     {
       "label": "\u0420\u0438\u0441\u043a\u0438",
@@ -284,10 +515,10 @@
       "source_file": "knowledge/sessions/2026-09-14-2118-smtp-investigation.md",
       "source_location": "L72",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0440\u0438\u0441\u043a\u0438",
       "community": 15,
       "community_name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
-      "norm_label": "\u0440\u0438\u0441\u043a\u0438"
+      "norm_label": "\u0440\u0438\u0441\u043a\u0438",
+      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0440\u0438\u0441\u043a\u0438"
     },
     {
       "label": "\u041e\u0442\u043a\u0430\u0442",
@@ -295,10 +526,10 @@
       "source_file": "knowledge/sessions/2026-09-14-2118-smtp-investigation.md",
       "source_location": "L79",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043e\u0442\u043a\u0430\u0442",
       "community": 15,
       "community_name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
-      "norm_label": "\u043e\u0442\u043a\u0430\u0442"
+      "norm_label": "\u043e\u0442\u043a\u0430\u0442",
+      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043e\u0442\u043a\u0430\u0442"
     },
     {
       "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
@@ -306,10 +537,10 @@
       "source_file": "knowledge/sessions/2026-09-14-2118-smtp-investigation.md",
       "source_location": "L88",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
       "community": 15,
       "community_name": "\u0414\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430 SMTP \u0434\u043b\u044f opt.domtrik.ru",
-      "norm_label": "\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438"
+      "norm_label": "\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "id": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
       "label": "send.php",
@@ -317,10 +548,10 @@
       "source_file": "send.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "send",
       "community": 21,
       "community_name": "send.php",
-      "norm_label": "send.php"
+      "norm_label": "send.php",
+      "id": "send"
     },
     {
       "label": "fail()",
@@ -329,10 +560,10 @@
       "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
-      "id": "send_fail",
       "community": 21,
       "community_name": "send.php",
-      "norm_label": "fail()"
+      "norm_label": "fail()",
+      "id": "send_fail"
     },
     {
       "label": "clean()",
@@ -341,10 +572,10 @@
       "source_location": "L23",
       "_callable": true,
       "_origin": "ast",
-      "id": "send_clean",
       "community": 21,
       "community_name": "send.php",
-      "norm_label": "clean()"
+      "norm_label": "clean()",
+      "id": "send_clean"
     },
     {
       "label": "rate_limit()",
@@ -353,10 +584,10 @@
       "source_location": "L128",
       "_callable": true,
       "_origin": "ast",
-      "id": "send_rate_limit",
       "community": 21,
       "community_name": "send.php",
-      "norm_label": "rate_limit()"
+      "norm_label": "rate_limit()",
+      "id": "send_rate_limit"
     },
     {
       "label": "captcha_passed()",
@@ -365,10 +596,10 @@
       "source_location": "L155",
       "_callable": true,
       "_origin": "ast",
-      "id": "send_captcha_passed",
       "community": 21,
       "community_name": "send.php",
-      "norm_label": "captcha_passed()"
+      "norm_label": "captcha_passed()",
+      "id": "send_captcha_passed"
     },
     {
       "label": "smtp_send()",
@@ -377,10 +608,10 @@
       "source_location": "L180",
       "_callable": true,
       "_origin": "ast",
-      "id": "send_smtp_send",
       "community": 21,
       "community_name": "send.php",
-      "norm_label": "smtp_send()"
+      "norm_label": "smtp_send()",
+      "id": "send_smtp_send"
     },
     {
       "label": "next.config.ts",
@@ -388,10 +619,10 @@
       "source_file": "cms/next.config.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "cms_next_config",
       "community": 27,
       "community_name": "next.config.ts",
-      "norm_label": "next.config.ts"
+      "norm_label": "next.config.ts",
+      "id": "cms_next_config"
     },
     {
       "label": "__filename",
@@ -399,10 +630,10 @@
       "source_file": "cms/next.config.ts",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "cms_next_config_filename",
       "community": 27,
       "community_name": "next.config.ts",
-      "norm_label": "__filename"
+      "norm_label": "__filename",
+      "id": "cms_next_config_filename"
     },
     {
       "label": "dirname",
@@ -410,10 +641,10 @@
       "source_file": "cms/next.config.ts",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "cms_next_config_dirname",
       "community": 27,
       "community_name": "next.config.ts",
-      "norm_label": "dirname"
+      "norm_label": "dirname",
+      "id": "cms_next_config_dirname"
     },
     {
       "label": "nextConfig",
@@ -421,10 +652,10 @@
       "source_file": "cms/next.config.ts",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "cms_next_config_nextconfig",
       "community": 27,
       "community_name": "next.config.ts",
-      "norm_label": "nextconfig"
+      "norm_label": "nextconfig",
+      "id": "cms_next_config_nextconfig"
     },
     {
       "label": "2026-09-11-beget-payload-hosting.md",
@@ -432,10 +663,10 @@
       "source_file": "knowledge/decisions/2026-09-11-beget-payload-hosting.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting",
       "community": 45,
       "community_name": "Payload CMS \u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f \u043d\u0430 Beget \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "norm_label": "2026-09-11-beget-payload-hosting.md"
+      "norm_label": "2026-09-11-beget-payload-hosting.md",
+      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting"
     },
     {
       "label": "Payload CMS \u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f \u043d\u0430 Beget \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
@@ -443,10 +674,10 @@
       "source_file": "knowledge/decisions/2026-09-11-beget-payload-hosting.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting_payload_cms_\u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f_\u043d\u0430_beget_\u0432\u043c\u0435\u0441\u0442\u0435_\u0441_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
       "community": 45,
       "community_name": "Payload CMS \u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f \u043d\u0430 Beget \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "norm_label": "payload cms \u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f \u043d\u0430 beget \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c"
+      "norm_label": "payload cms \u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f \u043d\u0430 beget \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
+      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting_payload_cms_\u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f_\u043d\u0430_beget_\u0432\u043c\u0435\u0441\u0442\u0435_\u0441_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c"
     },
     {
       "label": "\u0420\u0435\u0448\u0435\u043d\u0438\u0435",
@@ -454,10 +685,10 @@
       "source_file": "knowledge/decisions/2026-09-11-beget-payload-hosting.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u0440\u0435\u0448\u0435\u043d\u0438\u0435",
       "community": 45,
       "community_name": "Payload CMS \u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f \u043d\u0430 Beget \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "norm_label": "\u0440\u0435\u0448\u0435\u043d\u0438\u0435"
+      "norm_label": "\u0440\u0435\u0448\u0435\u043d\u0438\u0435",
+      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u0440\u0435\u0448\u0435\u043d\u0438\u0435"
     },
     {
       "label": "\u041f\u0440\u0438\u0447\u0438\u043d\u044b",
@@ -465,10 +696,10 @@
       "source_file": "knowledge/decisions/2026-09-11-beget-payload-hosting.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u043f\u0440\u0438\u0447\u0438\u043d\u044b",
       "community": 45,
       "community_name": "Payload CMS \u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f \u043d\u0430 Beget \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "norm_label": "\u043f\u0440\u0438\u0447\u0438\u043d\u044b"
+      "norm_label": "\u043f\u0440\u0438\u0447\u0438\u043d\u044b",
+      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u043f\u0440\u0438\u0447\u0438\u043d\u044b"
     },
     {
       "label": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
@@ -476,10 +707,10 @@
       "source_file": "knowledge/decisions/2026-09-11-beget-payload-hosting.md",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
       "community": 45,
       "community_name": "Payload CMS \u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f \u043d\u0430 Beget \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "norm_label": "\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f"
+      "norm_label": "\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
+      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f"
     },
     {
       "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
@@ -487,10 +718,10 @@
       "source_file": "knowledge/decisions/2026-09-11-beget-payload-hosting.md",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
       "community": 45,
       "community_name": "Payload CMS \u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f \u043d\u0430 Beget \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "norm_label": "\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438"
+      "norm_label": "\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "id": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
       "label": "2026-09-11-1835-beget-payload-deployment.md",
@@ -498,10 +729,10 @@
       "source_file": "knowledge/sessions/2026-09-11-1835-beget-payload-deployment.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment",
       "community": 18,
       "community_name": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
-      "norm_label": "2026-09-11-1835-beget-payload-deployment.md"
+      "norm_label": "2026-09-11-1835-beget-payload-deployment.md",
+      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment"
     },
     {
       "label": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
@@ -509,10 +740,10 @@
       "source_file": "knowledge/sessions/2026-09-11-1835-beget-payload-deployment.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget",
       "community": 18,
       "community_name": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
-      "norm_label": "\u0440\u0430\u0437\u0432\u0435\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 payload cms \u043d\u0430 beget"
+      "norm_label": "\u0440\u0430\u0437\u0432\u0435\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 payload cms \u043d\u0430 beget",
+      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget"
     },
     {
       "label": "\u0427\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u043d\u043e",
@@ -520,10 +751,10 @@
       "source_file": "knowledge/sessions/2026-09-11-1835-beget-payload-deployment.md",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0447\u0442\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e",
       "community": 18,
       "community_name": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
-      "norm_label": "\u0447\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u043d\u043e"
+      "norm_label": "\u0447\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u043d\u043e",
+      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0447\u0442\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e"
     },
     {
       "label": "\u0418\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b \u0438 \u0441\u043b\u0443\u0436\u0431\u044b",
@@ -531,10 +762,10 @@
       "source_file": "knowledge/sessions/2026-09-11-1835-beget-payload-deployment.md",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0438\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0441\u043b\u0443\u0436\u0431\u044b",
       "community": 18,
       "community_name": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
-      "norm_label": "\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u043d\u044b\u0435 \u0444\u0430\u0438\u043b\u044b \u0438 \u0441\u043b\u0443\u0436\u0431\u044b"
+      "norm_label": "\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u043d\u044b\u0435 \u0444\u0430\u0438\u043b\u044b \u0438 \u0441\u043b\u0443\u0436\u0431\u044b",
+      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0438\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0441\u043b\u0443\u0436\u0431\u044b"
     },
     {
       "label": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
@@ -542,10 +773,10 @@
       "source_file": "knowledge/sessions/2026-09-11-1835-beget-payload-deployment.md",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
       "community": 18,
       "community_name": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
-      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438"
+      "norm_label": "\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
+      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438"
     },
     {
       "label": "\u0420\u0435\u0448\u0435\u043d\u0438\u044f",
@@ -553,10 +784,10 @@
       "source_file": "knowledge/sessions/2026-09-11-1835-beget-payload-deployment.md",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
       "community": 18,
       "community_name": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
-      "norm_label": "\u0440\u0435\u0448\u0435\u043d\u0438\u044f"
+      "norm_label": "\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0435\u0448\u0435\u043d\u0438\u044f"
     },
     {
       "label": "\u041e\u0441\u0442\u0430\u0442\u043e\u043a",
@@ -564,10 +795,10 @@
       "source_file": "knowledge/sessions/2026-09-11-1835-beget-payload-deployment.md",
       "source_location": "L43",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043e\u0441\u0442\u0430\u0442\u043e\u043a",
       "community": 18,
       "community_name": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
-      "norm_label": "\u043e\u0441\u0442\u0430\u0442\u043e\u043a"
+      "norm_label": "\u043e\u0441\u0442\u0430\u0442\u043e\u043a",
+      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043e\u0441\u0442\u0430\u0442\u043e\u043a"
     },
     {
       "label": "\u0420\u0438\u0441\u043a\u0438",
@@ -575,10 +806,10 @@
       "source_file": "knowledge/sessions/2026-09-11-1835-beget-payload-deployment.md",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0438\u0441\u043a\u0438",
       "community": 18,
       "community_name": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
-      "norm_label": "\u0440\u0438\u0441\u043a\u0438"
+      "norm_label": "\u0440\u0438\u0441\u043a\u0438",
+      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0438\u0441\u043a\u0438"
     },
     {
       "label": "\u041e\u0442\u043a\u0430\u0442",
@@ -586,10 +817,10 @@
       "source_file": "knowledge/sessions/2026-09-11-1835-beget-payload-deployment.md",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043e\u0442\u043a\u0430\u0442",
       "community": 18,
       "community_name": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
-      "norm_label": "\u043e\u0442\u043a\u0430\u0442"
+      "norm_label": "\u043e\u0442\u043a\u0430\u0442",
+      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043e\u0442\u043a\u0430\u0442"
     },
     {
       "label": "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
@@ -597,10 +828,10 @@
       "source_file": "knowledge/sessions/2026-09-11-1835-beget-payload-deployment.md",
       "source_location": "L59",
       "_origin": "ast",
-      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
       "community": 18,
       "community_name": "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435 Payload CMS \u043d\u0430 Beget",
-      "norm_label": "\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438"
+      "norm_label": "\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "id": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
       "label": "app.json",
@@ -4418,7 +4649,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "knowledge/CURRENT.md",
-      "source_location": "L47",
+      "source_location": "L54",
       "weight": 1.0,
       "_origin": "ast",
       "source": "knowledge_current_\u0442\u0435\u043a\u0443\u0449\u0435\u0435_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435",
@@ -4429,7 +4660,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "knowledge/CURRENT.md",
-      "source_location": "L37",
+      "source_location": "L42",
       "weight": 1.0,
       "_origin": "ast",
       "source": "knowledge_current_\u0442\u0435\u043a\u0443\u0449\u0435\u0435_\u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435",
@@ -4462,7 +4693,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "knowledge/INDEX.md",
-      "source_location": "L37",
+      "source_location": "L42",
       "weight": 1.0,
       "_origin": "ast",
       "source": "knowledge_index_\u043f\u0440\u043e\u0435\u043a\u0442\u043d\u0430\u044f_\u043f\u0430\u043c\u044f\u0442\u044c_domtrik",
@@ -4488,7 +4719,216 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "knowledge_index_\u043f\u0440\u043e\u0435\u043a\u0442\u043d\u0430\u044f_\u043f\u0430\u043c\u044f\u0442\u044c_domtrik",
+      "target": "knowledge_index_\u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/INDEX.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_index_\u043f\u0440\u043e\u0435\u043a\u0442\u043d\u0430\u044f_\u043f\u0430\u043c\u044f\u0442\u044c_domtrik",
       "target": "knowledge_index_\u0441\u0435\u0441\u0441\u0438\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_cloudflare_smtp_dns",
+      "target": "knowledge_cloudflare_smtp_dns_\u0440\u0443\u0447\u043d\u0430\u044f_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_smtp_dns_\u0432_cloudflare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_cloudflare_smtp_dns_\u0440\u0443\u0447\u043d\u0430\u044f_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_smtp_dns_\u0432_cloudflare",
+      "target": "knowledge_cloudflare_smtp_dns_\u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_cloudflare_smtp_dns_\u0440\u0443\u0447\u043d\u0430\u044f_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_smtp_dns_\u0432_cloudflare",
+      "target": "knowledge_cloudflare_smtp_dns_\u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c_dkim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_cloudflare_smtp_dns_\u0440\u0443\u0447\u043d\u0430\u044f_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_smtp_dns_\u0432_cloudflare",
+      "target": "knowledge_cloudflare_smtp_dns_\u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c_\u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0443_smtp_bz",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_cloudflare_smtp_dns_\u0440\u0443\u0447\u043d\u0430\u044f_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_smtp_dns_\u0432_cloudflare",
+      "target": "knowledge_cloudflare_smtp_dns_\u043e\u0431\u044a\u0435\u0434\u0438\u043d\u0438\u0442\u044c_spf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_cloudflare_smtp_dns_\u0440\u0443\u0447\u043d\u0430\u044f_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_smtp_dns_\u0432_cloudflare",
+      "target": "knowledge_cloudflare_smtp_dns_\u043e\u0442\u043a\u0430\u0442",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_cloudflare_smtp_dns_\u0440\u0443\u0447\u043d\u0430\u044f_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_smtp_dns_\u0432_cloudflare",
+      "target": "knowledge_cloudflare_smtp_dns_\u043e\u0442\u043a\u0440\u044b\u0442\u044c_dns_\u0437\u043e\u043d\u0443",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_cloudflare_smtp_dns_\u0440\u0443\u0447\u043d\u0430\u044f_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_smtp_dns_\u0432_cloudflare",
+      "target": "knowledge_cloudflare_smtp_dns_\u043f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/cloudflare-smtp-dns.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_cloudflare_smtp_dns_\u0440\u0443\u0447\u043d\u0430\u044f_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_smtp_dns_\u0432_cloudflare",
+      "target": "knowledge_cloudflare_smtp_dns_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_sessions_2026_09_14_2158_support_mailbox_change",
+      "target": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u043c\u0435\u043d\u0430_\u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e_\u044f\u0449\u0438\u043a\u0430_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430_\u043d\u0430_support_cadesign_ru",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u043c\u0435\u043d\u0430_\u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e_\u044f\u0449\u0438\u043a\u0430_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430_\u043d\u0430_support_cadesign_ru",
+      "target": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0438\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0441\u043b\u0443\u0436\u0431\u044b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u043c\u0435\u043d\u0430_\u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e_\u044f\u0449\u0438\u043a\u0430_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430_\u043d\u0430_support_cadesign_ru",
+      "target": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u043e\u0441\u0442\u0430\u0442\u043e\u043a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u043c\u0435\u043d\u0430_\u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e_\u044f\u0449\u0438\u043a\u0430_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430_\u043d\u0430_support_cadesign_ru",
+      "target": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u043e\u0442\u043a\u0430\u0442",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u043c\u0435\u043d\u0430_\u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e_\u044f\u0449\u0438\u043a\u0430_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430_\u043d\u0430_support_cadesign_ru",
+      "target": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u043c\u0435\u043d\u0430_\u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e_\u044f\u0449\u0438\u043a\u0430_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430_\u043d\u0430_support_cadesign_ru",
+      "target": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u043c\u0435\u043d\u0430_\u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e_\u044f\u0449\u0438\u043a\u0430_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430_\u043d\u0430_support_cadesign_ru",
+      "target": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0440\u0438\u0441\u043a\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u043c\u0435\u043d\u0430_\u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e_\u044f\u0449\u0438\u043a\u0430_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430_\u043d\u0430_support_cadesign_ru",
+      "target": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/sessions/2026-09-14-2158-support-mailbox-change.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0441\u043c\u0435\u043d\u0430_\u043f\u043e\u0447\u0442\u043e\u0432\u043e\u0433\u043e_\u044f\u0449\u0438\u043a\u0430_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430_\u043d\u0430_support_cadesign_ru",
+      "target": "knowledge_sessions_2026_09_14_2158_support_mailbox_change_\u0447\u0442\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e",
       "confidence_score": 1.0
     },
     {
@@ -4498,9 +4938,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_14_yandex_smtp",
-      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u044f\u043d\u0434\u0435\u043a\u0441_smtp_\u0434\u043b\u044f_\u043f\u0438\u0441\u0435\u043c_\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u044f\u043d\u0434\u0435\u043a\u0441_smtp_\u0434\u043b\u044f_\u043f\u0438\u0441\u0435\u043c_\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430"
     },
     {
       "relation": "contains",
@@ -4509,9 +4949,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_14_yandex_smtp_\u044f\u043d\u0434\u0435\u043a\u0441_smtp_\u0434\u043b\u044f_\u043f\u0438\u0441\u0435\u043c_\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f"
     },
     {
       "relation": "contains",
@@ -4520,9 +4960,9 @@
       "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_14_yandex_smtp_\u044f\u043d\u0434\u0435\u043a\u0441_smtp_\u0434\u043b\u044f_\u043f\u0438\u0441\u0435\u043c_\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u043e\u0442\u043a\u0430\u0442",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u043e\u0442\u043a\u0430\u0442"
     },
     {
       "relation": "contains",
@@ -4531,9 +4971,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_14_yandex_smtp_\u044f\u043d\u0434\u0435\u043a\u0441_smtp_\u0434\u043b\u044f_\u043f\u0438\u0441\u0435\u043c_\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u043f\u0440\u0438\u0447\u0438\u043d\u044b",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u043f\u0440\u0438\u0447\u0438\u043d\u044b"
     },
     {
       "relation": "contains",
@@ -4542,9 +4982,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_14_yandex_smtp_\u044f\u043d\u0434\u0435\u043a\u0441_smtp_\u0434\u043b\u044f_\u043f\u0438\u0441\u0435\u043c_\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u0440\u0435\u0448\u0435\u043d\u0438\u0435",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u0440\u0435\u0448\u0435\u043d\u0438\u0435"
     },
     {
       "relation": "contains",
@@ -4553,9 +4993,9 @@
       "source_location": "L39",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_14_yandex_smtp_\u044f\u043d\u0434\u0435\u043a\u0441_smtp_\u0434\u043b\u044f_\u043f\u0438\u0441\u0435\u043c_\u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u0430",
-      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_14_yandex_smtp_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
       "relation": "contains",
@@ -4564,9 +5004,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_14_2118_smtp_investigation",
-      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru"
     },
     {
       "relation": "contains",
@@ -4575,9 +5015,9 @@
       "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru",
-      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0438\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0441\u043b\u0443\u0436\u0431\u044b",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0438\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0441\u043b\u0443\u0436\u0431\u044b"
     },
     {
       "relation": "contains",
@@ -4586,9 +5026,9 @@
       "source_location": "L65",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru",
-      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043e\u0441\u0442\u0430\u0442\u043e\u043a",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043e\u0441\u0442\u0430\u0442\u043e\u043a"
     },
     {
       "relation": "contains",
@@ -4597,9 +5037,9 @@
       "source_location": "L79",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru",
-      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043e\u0442\u043a\u0430\u0442",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043e\u0442\u043a\u0430\u0442"
     },
     {
       "relation": "contains",
@@ -4608,9 +5048,9 @@
       "source_location": "L45",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru",
-      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438"
     },
     {
       "relation": "contains",
@@ -4619,9 +5059,9 @@
       "source_location": "L57",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru",
-      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0440\u0435\u0448\u0435\u043d\u0438\u044f"
     },
     {
       "relation": "contains",
@@ -4630,9 +5070,9 @@
       "source_location": "L72",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru",
-      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0440\u0438\u0441\u043a\u0438",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0440\u0438\u0441\u043a\u0438"
     },
     {
       "relation": "contains",
@@ -4641,9 +5081,9 @@
       "source_location": "L88",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru",
-      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
       "relation": "contains",
@@ -4652,9 +5092,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0434\u0438\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0430_smtp_\u0434\u043b\u044f_opt_domtrik_ru",
-      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0447\u0442\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_14_2118_smtp_investigation_\u0447\u0442\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e"
     },
     {
       "relation": "contains",
@@ -4663,9 +5103,9 @@
       "source_location": "L155",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "send",
-      "target": "send_captcha_passed",
-      "confidence_score": 1.0
+      "target": "send_captcha_passed"
     },
     {
       "relation": "contains",
@@ -4674,9 +5114,9 @@
       "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "send",
-      "target": "send_clean",
-      "confidence_score": 1.0
+      "target": "send_clean"
     },
     {
       "relation": "contains",
@@ -4685,9 +5125,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "send",
-      "target": "send_fail",
-      "confidence_score": 1.0
+      "target": "send_fail"
     },
     {
       "relation": "contains",
@@ -4696,9 +5136,9 @@
       "source_location": "L128",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "send",
-      "target": "send_rate_limit",
-      "confidence_score": 1.0
+      "target": "send_rate_limit"
     },
     {
       "relation": "contains",
@@ -4707,9 +5147,9 @@
       "source_location": "L180",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "send",
-      "target": "send_smtp_send",
-      "confidence_score": 1.0
+      "target": "send_smtp_send"
     },
     {
       "relation": "calls",
@@ -4719,9 +5159,9 @@
       "source_location": "L132",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "send_rate_limit",
-      "target": "send_fail",
-      "confidence_score": 1.0
+      "target": "send_fail"
     },
     {
       "relation": "contains",
@@ -4730,9 +5170,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "cms_next_config",
-      "target": "cms_next_config_dirname",
-      "confidence_score": 1.0
+      "target": "cms_next_config_dirname"
     },
     {
       "relation": "contains",
@@ -4741,9 +5181,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "cms_next_config",
-      "target": "cms_next_config_filename",
-      "confidence_score": 1.0
+      "target": "cms_next_config_filename"
     },
     {
       "relation": "contains",
@@ -4752,9 +5192,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "cms_next_config",
-      "target": "cms_next_config_nextconfig",
-      "confidence_score": 1.0
+      "target": "cms_next_config_nextconfig"
     },
     {
       "relation": "contains",
@@ -4763,9 +5203,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_11_beget_payload_hosting",
-      "target": "knowledge_decisions_2026_09_11_beget_payload_hosting_payload_cms_\u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f_\u043d\u0430_beget_\u0432\u043c\u0435\u0441\u0442\u0435_\u0441_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_11_beget_payload_hosting_payload_cms_\u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f_\u043d\u0430_beget_\u0432\u043c\u0435\u0441\u0442\u0435_\u0441_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c"
     },
     {
       "relation": "contains",
@@ -4774,9 +5214,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_11_beget_payload_hosting_payload_cms_\u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f_\u043d\u0430_beget_\u0432\u043c\u0435\u0441\u0442\u0435_\u0441_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "target": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f"
     },
     {
       "relation": "contains",
@@ -4785,9 +5225,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_11_beget_payload_hosting_payload_cms_\u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f_\u043d\u0430_beget_\u0432\u043c\u0435\u0441\u0442\u0435_\u0441_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "target": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u043f\u0440\u0438\u0447\u0438\u043d\u044b",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u043f\u0440\u0438\u0447\u0438\u043d\u044b"
     },
     {
       "relation": "contains",
@@ -4796,9 +5236,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_11_beget_payload_hosting_payload_cms_\u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f_\u043d\u0430_beget_\u0432\u043c\u0435\u0441\u0442\u0435_\u0441_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "target": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u0440\u0435\u0448\u0435\u043d\u0438\u0435",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u0440\u0435\u0448\u0435\u043d\u0438\u0435"
     },
     {
       "relation": "contains",
@@ -4807,9 +5247,9 @@
       "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_decisions_2026_09_11_beget_payload_hosting_payload_cms_\u0440\u0430\u0437\u043c\u0435\u0449\u0430\u0435\u0442\u0441\u044f_\u043d\u0430_beget_\u0432\u043c\u0435\u0441\u0442\u0435_\u0441_\u043b\u0435\u043d\u0434\u0438\u043d\u0433\u043e\u043c",
-      "target": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
-      "confidence_score": 1.0
+      "target": "knowledge_decisions_2026_09_11_beget_payload_hosting_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
       "relation": "contains",
@@ -4818,9 +5258,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment",
-      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget"
     },
     {
       "relation": "contains",
@@ -4829,9 +5269,9 @@
       "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget",
-      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0438\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0441\u043b\u0443\u0436\u0431\u044b",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0438\u0437\u043c\u0435\u043d\u0451\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b_\u0438_\u0441\u043b\u0443\u0436\u0431\u044b"
     },
     {
       "relation": "contains",
@@ -4840,9 +5280,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget",
-      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043e\u0441\u0442\u0430\u0442\u043e\u043a",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043e\u0441\u0442\u0430\u0442\u043e\u043a"
     },
     {
       "relation": "contains",
@@ -4851,9 +5291,9 @@
       "source_location": "L54",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget",
-      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043e\u0442\u043a\u0430\u0442",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043e\u0442\u043a\u0430\u0442"
     },
     {
       "relation": "contains",
@@ -4862,9 +5302,9 @@
       "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget",
-      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438"
     },
     {
       "relation": "contains",
@@ -4873,9 +5313,9 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget",
-      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0435\u0448\u0435\u043d\u0438\u044f"
     },
     {
       "relation": "contains",
@@ -4884,9 +5324,9 @@
       "source_location": "L49",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget",
-      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0438\u0441\u043a\u0438",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0438\u0441\u043a\u0438"
     },
     {
       "relation": "contains",
@@ -4895,9 +5335,9 @@
       "source_location": "L59",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget",
-      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u0437\u0430\u043c\u0435\u0442\u043a\u0438"
     },
     {
       "relation": "contains",
@@ -4906,9 +5346,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0440\u0430\u0437\u0432\u0451\u0440\u0442\u044b\u0432\u0430\u043d\u0438\u0435_payload_cms_\u043d\u0430_beget",
-      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0447\u0442\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e",
-      "confidence_score": 1.0
+      "target": "knowledge_sessions_2026_09_11_1835_beget_payload_deployment_\u0447\u0442\u043e_\u0441\u0434\u0435\u043b\u0430\u043d\u043e"
     },
     {
       "relation": "contains",
@@ -8540,5 +8980,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b3a7476c575adce08dea3e6df1b3aa794ba4f427"
+  "built_at_commit": "1c161e1d42f09e9ad87a6cacc143db1e45ceef30"
 }
