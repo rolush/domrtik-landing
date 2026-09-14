@@ -1,16 +1,16 @@
-# Graph Report - domtrik  (2026-09-13)
+# Graph Report - domtrik  (2026-09-14)
 
 ## Corpus Check
-- 63 files · ~791,359 words
+- 65 files · ~792,017 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 379 nodes · 355 edges · 47 communities (40 shown, 7 thin omitted)
+- 396 nodes · 370 edges · 56 communities (45 shown, 11 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c4931697`
+- Built from commit: `b3a7476c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,7 +30,7 @@
 - Согласие на обработку персональных данных
 - Редактируемые юридические страницы
 - {{title}}
-- include
+- Диагностика SMTP для opt.domtrik.ru
 - admin.e2e.spec.ts
 - [...slug]/route.ts
 - Развёртывание Payload CMS на Beget
@@ -52,18 +52,26 @@
 - js/main.js
 - Payload CMS размещается на Beget вместе с лендингом
 - (payload)/layout.tsx
+- HomePage.ts
+- Яндекс SMTP для писем публичного лендинга
+- import-landing-media.ts
+- Leads.ts
+- not-found.tsx
+- [[...segments]]/page.tsx
+- graphql/route.ts
+- graphql-playground/route.ts
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
 2. `scripts` - 15 edges
-3. `Ассеты` - 9 edges
-4. `DOMTRIK — Landing Page` - 9 edges
-5. `Настройка постоянной проектной памяти` - 9 edges
-6. `Русификация и брендинг админки` - 9 edges
-7. `Крупные миниатюры изображений в админке` - 9 edges
-8. `Отключение индикатора Next.js` - 9 edges
-9. `Существующие изображения и WebP в админке` - 9 edges
-10. `Согласие на обработку персональных данных` - 9 edges
+3. `Диагностика SMTP для opt.domtrik.ru` - 9 edges
+4. `Развёртывание Payload CMS на Beget` - 9 edges
+5. `Ассеты` - 9 edges
+6. `DOMTRIK — Landing Page` - 9 edges
+7. `Настройка постоянной проектной памяти` - 9 edges
+8. `Русификация и брендинг админки` - 9 edges
+9. `Крупные миниатюры изображений в админке` - 9 edges
+10. `Отключение индикатора Next.js` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `onlyBuiltDependencies` --extends--> `sharp`  [EXTRACTED]
@@ -72,11 +80,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (47 total, 7 thin omitted)
+## Communities (56 total, 11 thin omitted)
 
 ### Community 0 - "payload.config.ts"
-Cohesion: 0.05
-Nodes (27): Args, Args, GET, OPTIONS, POST, fail(), Leads, submitLead() (+19 more)
+Cohesion: 0.18
+Nodes (8): Media, Users, LegalPages, SiteSettings, dirname, domtrikRu, filename, sharp
 
 ### Community 1 - "devDependencies"
 Cohesion: 0.07
@@ -91,8 +99,8 @@ Cohesion: 0.08
 Nodes (25): dependencies, cross-env, dotenv, graphql, next, payload, @payloadcms/db-sqlite, @payloadcms/next (+17 more)
 
 ### Community 4 - "compilerOptions"
-Cohesion: 0.09
-Nodes (22): compilerOptions, allowJs, baseUrl, esModuleInterop, incremental, isolatedModules, jsx, lib (+14 more)
+Cohesion: 0.06
+Nodes (30): compilerOptions, allowJs, baseUrl, esModuleInterop, incremental, isolatedModules, jsx, lib (+22 more)
 
 ### Community 5 - "DOMTRIK — Landing Page"
 Cohesion: 0.15
@@ -134,9 +142,9 @@ Nodes (9): Изменённые файлы и службы, Остаток, От
 Cohesion: 0.20
 Nodes (9): {{title}}, Изменённые файлы и службы, Остаток, Откат, Проверки, Решения, Риски, Связанные заметки (+1 more)
 
-### Community 15 - "include"
-Cohesion: 0.22
-Nodes (8): exclude, include, .next/dev/types/**/*.ts, next-env.d.ts, .next/types/**/*.ts, node_modules, **/*.ts, **/*.tsx
+### Community 15 - "Диагностика SMTP для opt.domtrik.ru"
+Cohesion: 0.20
+Nodes (9): Диагностика SMTP для opt.domtrik.ru, Изменённые файлы и службы, Остаток, Откат, Проверки, Решения, Риски, Связанные заметки (+1 more)
 
 ### Community 16 - "admin.e2e.spec.ts"
 Cohesion: 0.39
@@ -194,25 +202,41 @@ Nodes (3): dirname, { JSDOM }, landingDir
 Cohesion: 0.33
 Nodes (5): Payload CMS размещается на Beget вместе с лендингом, Ограничения, Причины, Решение, Связанные заметки
 
+### Community 47 - "HomePage.ts"
+Cohesion: 0.29
+Nodes (6): benefits, categories, faq, hits, HomePage, reasons
+
+### Community 48 - "Яндекс SMTP для писем публичного лендинга"
+Cohesion: 0.29
+Nodes (6): Ограничения, Откат, Причины, Решение, Связанные заметки, Яндекс SMTP для писем публичного лендинга
+
+### Community 49 - "import-landing-media.ts"
+Cohesion: 0.33
+Nodes (5): assetsDir, categories, certificates, dirname, hits
+
+### Community 50 - "Leads.ts"
+Cohesion: 0.60
+Nodes (3): fail(), Leads, submitLead()
+
 ## Knowledge Gaps
-- **229 isolated node(s):** `alwaysUpdateLinks`, `attachmentFolderPath`, `newLinkFormat`, `useMarkdownLinks`, `singleQuote` (+224 more)
+- **242 isolated node(s):** `Активный контекст`, `Следующие действия`, `Известные риски`, `Начать отсюда`, `Решения` (+237 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `onlyBuiltDependencies` connect `scripts` to `payload.config.ts`?**
-  _High betweenness centrality (0.085) - this node is a cross-community bridge._
+  _High betweenness centrality (0.078) - this node is a cross-community bridge._
 - **Why does `sharp` connect `payload.config.ts` to `scripts`?**
-  _High betweenness centrality (0.083) - this node is a cross-community bridge._
-- **What connects `alwaysUpdateLinks`, `attachmentFolderPath`, `newLinkFormat` to the rest of the system?**
-  _229 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `payload.config.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.05053191489361702 - nodes in this community are weakly interconnected._
+  _High betweenness centrality (0.076) - this node is a cross-community bridge._
+- **What connects `Активный контекст`, `Следующие действия`, `Известные риски` to the rest of the system?**
+  _242 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `devDependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `scripts` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+- **Should `compilerOptions` be split into smaller, more focused modules?**
+  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
