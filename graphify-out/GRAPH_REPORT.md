@@ -1,7 +1,7 @@
 # Graph Report - domtrik  (2026-09-14)
 
 ## Corpus Check
-- 67 files · ~792,732 words
+- 67 files · ~792,767 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1c161e1d`
+- Built from commit: `c1881f63`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -66,8 +66,8 @@
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
 2. `scripts` - 15 edges
-3. `Ручная настройка SMTP DNS в Cloudflare` - 9 edges
-4. `Смена почтового ящика лендинга на support@cadesign.ru` - 9 edges
+3. `Смена почтового ящика лендинга на support@cadesign.ru` - 9 edges
+4. `Ручная настройка SMTP DNS в Cloudflare` - 9 edges
 5. `Диагностика SMTP для opt.domtrik.ru` - 9 edges
 6. `Развёртывание Payload CMS на Beget` - 9 edges
 7. `Ассеты` - 9 edges
@@ -229,7 +229,7 @@ Cohesion: 0.20
 Nodes (9): Изменённые файлы и службы, Остаток, Откат, Проверки, Решения, Риски, Связанные заметки, Смена почтового ящика лендинга на support@cadesign.ru (+1 more)
 
 ## Knowledge Gaps
-- **259 isolated node(s):** `Активный контекст`, `Следующие действия`, `Известные риски`, `Начать отсюда`, `Решения` (+254 more)
+- **259 isolated node(s):** `Активный контекст`, `Следующие действия`, `Известные риски`, `Решение`, `Причины` (+254 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
