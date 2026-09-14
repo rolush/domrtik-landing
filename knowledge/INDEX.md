@@ -22,6 +22,10 @@ status: active
 - [[knowledge/decisions/2026-09-11-beget-payload-hosting|Payload CMS на Beget]]
 - [[knowledge/decisions/2026-09-14-yandex-smtp|Яндекс SMTP для публичного лендинга]]
 
+## Руководства
+
+- [[knowledge/cloudflare-smtp-dns|Ручная настройка SMTP DNS в Cloudflare]]
+
 ## Сессии
 
 - [[knowledge/sessions/2026-08-15-2233-project-memory|Настройка Graphify и Obsidian]]
@@ -33,6 +37,7 @@ status: active
 - [[knowledge/sessions/2026-08-16-1212-editable-legal-pages|Редактируемые юридические страницы]]
 - [[knowledge/sessions/2026-09-11-1835-beget-payload-deployment|Развёртывание Payload CMS на Beget]]
 - [[knowledge/sessions/2026-09-14-2118-smtp-investigation|Диагностика SMTP для opt.domtrik.ru]]
+- [[knowledge/sessions/2026-09-14-2158-support-mailbox-change|Смена почтового ящика лендинга на support@cadesign.ru]]
 
 ## Рабочие каталоги
 
